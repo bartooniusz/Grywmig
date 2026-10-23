@@ -50,9 +50,13 @@ grę oraz kliknięcia udostępniania. Sam iloraz liczby zdarzeń nie jest lejkie
 użytkowników. Przy małej liczbie wejść wynik jest wstępny; pora publikacji
 i różna widownia również wpływają na wynik. Nie gwarantujemy liczby wejść.
 
-5. MATERIAŁY
-Trzy filmy MP4, 1080 × 1920, 30 kl./s, po 18 sekund, H.264 + AAC.
-Nagrania pokazują działającą grę, z powiększonymi zeznaniami dla czytelności.
-Nie zdradzają odpowiedzi. Napisy są częścią filmu; muzyka jest autorskim,
-syntetycznym podkładem bez głosu. Brak licencjonowanego utworu z biblioteki.
-Miniatury PNG odpowiadają poszczególnym filmom.
+5. MATERIAŁY — WERSJA 2
+Trzy filmy MP4, 1080 × 1920, około 18 sekund każdy, z polskim lektorem.
+Pierwsze 8 sekund to wygenerowany zwiastun 3D. Potem każdy film pokazuje
+inną zagadkę z prawdziwej gry, a na końcu planszę z adresem grywmig.pl.
+Montaż powstał w ElevenLabs. Nowa grafika zapowiada klimat gry;
+faktyczny interfejs gry jest widoczny w drugiej części. Bez spoilerów.
+
+W paczce ZIP są wtyczki WordPress, opisy, nowa grafika i FILMY.html
+z linkami do pobrania trzech nowych MP4. Same pliki MP4 są w Metricool
+oraz pod odnośnikami na stronie podglądu; nie są osadzone w tym ZIP.
