@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: Gry w Mig — wygodniej graj
- * Description: Katalog 12 gier, trafniejsze polecenia, zwarty widok gry i uzupełnienia SEO dla grywmig.pl.
- * Version: 1.0.2
+ * Description: Katalog gier, trafniejsze polecenia, zwarty widok gry i uzupełnienia SEO dla grywmig.pl.
+ * Version: 1.0.3
  * Requires at least: 6.2
  * Requires PHP: 7.4
  * Author: Gry w Mig
@@ -15,7 +15,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-const VERSION = '1.0.2';
+const VERSION = '1.0.3';
 const OPTION = 'gwm_ulepszenia_options';
 
 function options() {
@@ -29,6 +29,7 @@ function games() {
         return $games;
     }
     $rows = array(
+        'halloween_alibi' => array('halloweenowe-alibi', 'Halloweenowe Alibi', 'Jeden świadek kłamie. Rozwiąż trzy jesienne tajemnice.', 'logiczne', '2–5 min', 'Halloween', 'halloween'),
         'krzyzowka' => array('krzyzowka-online', 'Mini krzyżówka', 'Siedem haseł. Jedna przyjemna przerwa.', 'slowa', '3–5 min', 'Codzienna', 'crossword'),
         'haslo' => array('wordle-po-polsku', 'Hasło w Mig', 'Pięć liter i sześć prób. Odkryj słowo dnia.', 'slowa', '3–5 min', 'Codzienna', 'wordle'),
         'alibi' => array('alibi-w-mig', 'Alibi w Mig', 'Porównaj zeznania. Wskaż sprawcę i kłamcę.', 'logiczne', '5–10 min', 'Detektywistyczna', 'alibi'),
@@ -72,9 +73,10 @@ function current_game() {
 
 function recommendations($id) {
     $map = array(
+        'halloween_alibi' => array('alibi', 'tajemnica', 'krzyzowka'),
         'krzyzowka' => array('haslo', 'anagram', 'slowa_z_liter'),
         'haslo' => array('krzyzowka', 'anagram', 'slowa_z_liter'),
-        'alibi' => array('tajemnica', 'krzyzowka', 'sudoku'),
+        'alibi' => array('halloween_alibi', 'tajemnica', 'krzyzowka', 'sudoku'),
         'sudoku' => array('mahjong', 'kulki', 'krzyzowka'),
         'slowa_z_liter' => array('anagram', 'haslo', 'krzyzowka'),
         'anagram' => array('slowa_z_liter', 'haslo', 'krzyzowka'),
@@ -90,6 +92,7 @@ function recommendations($id) {
     foreach (isset($map[$id]) ? $map[$id] : array() as $other) {
         if (isset($all[$other])) {
             $result[] = $all[$other];
+            if (count($result) === 3) { break; }
         }
     }
     return $result;

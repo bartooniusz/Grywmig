@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,follow"><meta name="description" content="Trzy halloweenowe zagadki po polsku. Porównaj zeznania i wskaż sprawcę oraz jedynego kłamcę."><title>Halloweenowe Alibi — Gry w Mig</title><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><script type="module" src="app.mjs"></script></head>
+<body>
+<div class="game-shell">
+  <header class="game-header"><a href="https://grywmig.pl/" target="_top" class="site-name">Gry w Mig <span aria-hidden="true">/</span> Edycja Halloween</a><span class="edition">3 sprawy do odkrycia</span></header>
+  <main id="game-main">
+    <section class="cover" id="cover" aria-labelledby="cover-title">
+      <div class="cover-copy"><p class="eyebrow"><span aria-hidden="true">✦</span> Mała zagadka. Wielka tajemnica.</p><h1 id="cover-title">Halloweenowe<br><span>Alibi.</span></h1><p class="cover-lead">Jeden świadek kłamie.<br>Odkryjesz który?</p><p class="cover-description">Trzy krótkie sprawy, maski i zaginiona latarnia. Przeczytaj zeznania, wskaż sprawcę i znajdź jedynego kłamcę.</p><button class="primary" id="start" type="button">Zbadaj pierwszą sprawę <span aria-hidden="true">→</span></button><p class="quiet">Bez logowania. Bez presji czasu.</p></div>
+      <div class="cover-art"><img src="scene.svg" width="800" height="600" alt="Dyniowa latarnia w oknie domu przygotowanego na bal kostiumowy"><div class="art-note"><span aria-hidden="true">✳</span><div><strong>Nie zgaduj. Połącz fakty.</strong><span>Każda sprawa ma jedno rozwiązanie.</span></div></div></div>
+    </section>
+    <section class="play" id="play" hidden aria-labelledby="case-title">
+      <div class="case-top"><a href="#cover" id="back" class="back">← Początek</a><div class="case-progress" id="case-progress" aria-label="Postęp spraw"></div><span class="timer" id="timer" aria-label="Czas gry">0:00</span></div>
+      <div class="case-heading"><div><p class="eyebrow" id="case-location"></p><h1 id="case-title" tabindex="-1"></h1></div><span class="case-number" id="case-number"></span></div>
+      <p class="story" id="story"></p><p class="rule"><span aria-hidden="true">!</span> Dokładnie jedna osoba kłamie. Sprawca i kłamca mogą być tą samą osobą.</p>
+      <div class="witnesses" id="witnesses" aria-label="Zeznania świadków"></div>
+      <section class="deduction" aria-labelledby="deduction-title"><div class="deduction-heading"><div><p class="eyebrow">Twój ruch, detektywie</p><h2 id="deduction-title">Połącz zeznania.</h2></div><span aria-hidden="true">✦</span></div><fieldset><legend id="culprit-question"></legend><div class="choices" id="culprit-choices"></div></fieldset><fieldset><legend>Kto kłamie?</legend><div class="choices" id="liar-choices"></div></fieldset><button class="primary check" id="check" type="button" disabled>Sprawdź moje wskazanie <span aria-hidden="true">→</span></button><p class="status" id="status" role="status" aria-live="polite">Wybierz sprawcę i kłamcę.</p></section>
+      <div class="help"><button id="hint" type="button">Podpowiedź <span id="hint-count">0/3</span></button><button id="reveal" type="button">Pokaż rozwiązanie</button></div><p class="hint-text" id="hint-text" hidden role="status" aria-live="polite"></p>
+      <div class="reveal-confirm" id="reveal-confirm" hidden><p>Odsłonić rozwiązanie tej sprawy? Możesz też wrócić do dedukcji.</p><button id="confirm-reveal" type="button">Tak, pokaż rozwiązanie</button><button id="cancel-reveal" type="button">Jeszcze spróbuję</button></div>
+      <section class="result" id="result" hidden tabindex="-1" aria-labelledby="result-title"><p class="eyebrow" id="result-kicker"></p><h2 id="result-title"></h2><p id="result-summary"></p><div class="result-facts" id="result-facts"></div><details id="explanation"><summary>Dlaczego to jedyne rozwiązanie?</summary><p id="explanation-text"></p><ul id="truths"></ul></details><div class="result-actions"><button class="primary" id="share" type="button">Udostępnij wynik →</button><button class="secondary" id="next" type="button">Następna sprawa →</button></div><p id="share-status" role="status"></p><textarea id="share-copy" aria-label="Wynik do skopiowania" rows="5" readonly hidden></textarea></section>
+      <div class="play-footer"><span id="local-progress">Postęp zapisuje się w tej przeglądarce.</span><button id="restart" type="button">Zacznij tę sprawę od nowa</button></div>
+    </section>
+    <aside class="more-games"><div><strong>Masz ochotę na więcej tajemnic?</strong><p>Codzienne sprawy czekają w Alibi w Mig.</p></div><a href="https://grywmig.pl/alibi-w-mig/" target="_top" id="next-game">Poznaj Alibi w Mig <span aria-hidden="true">→</span></a></aside>
+  </main><footer class="game-footer"><span>Gry w Mig · Jesienna edycja specjalna</span><span>Zagadki bez straszenia.</span></footer>
+</div>
+</body></html>

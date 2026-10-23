@@ -2,14 +2,14 @@
 Contributors: grywmig
 Requires at least: 6.2
 Requires PHP: 7.4
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPL-2.0-or-later
 
 Katalog gier, polecenia kolejnej gry i uzupełnienia SEO dla grywmig.pl.
 
 == Instalacja ==
 1. W panelu WordPress wybierz Wtyczki → Dodaj nową → Wyślij wtyczkę na serwer.
-2. Wskaż grywmig-ulepszenia-1.0.2.zip, zainstaluj i włącz.
+2. Wskaż grywmig-ulepszenia-1.0.3.zip, zainstaluj i włącz.
 3. Jeśli używasz cache strony lub CDN, wyczyść cache po włączeniu.
 4. Sprawdź stronę główną, Sudoku, Alibi, Hasło w Mig i obie gry 3D.
 
@@ -45,6 +45,9 @@ oraz kopii publicznego CSS motywu. Pełny test na aktywnym WordPressie
 wymaga instalacji i dostępu do panelu. Nie gwarantujemy wzrostu pozycji.
 
 == Zmiany ==
+= 1.0.3 =
+Obsługa karty Halloweenowego Alibi po publikacji strony nowej gry.
+
 = 1.0.2 =
 Krótsza góra strony na telefonach: trzy kompaktowe skróty i szybszy dostęp
 do katalogu. Wygląd nagłówka, stopki i wersji komputerowej jest zachowany.

@@ -9,7 +9,7 @@ use function GryWMig\Ulepszenia\seo_data;
 $passed = 0;
 function check($condition, $label) { if (!$condition) { throw new Exception('FAIL: ' . $label); } $GLOBALS['passed']++; }
 
-check(count(games()) === 12, 'all twelve published games');
+check(count(games()) === 13, 'all thirteen published games');
 foreach (games() as $id => $game) {
     $next = recommendations($id);
     check(count($next) === 3, 'three recommendations: ' . $id);
@@ -51,7 +51,7 @@ $test_options = array('seo' => 0);
 check(seo_data() === array(), 'SEO module can be disabled');
 $test_options = array(); $test_slug = '';
 ob_start(); require __DIR__ . '/../plugins/grywmig-ulepszenia/templates/home.php'; $home = ob_get_clean();
-check(substr_count($home, 'class="gwm-u-card"') === 12, 'server renders entire catalogue');
+check(substr_count($home, 'class="gwm-u-card"') === 13, 'server renders entire catalogue');
 check(strpos($home, 'id="artykuly"') !== false && strpos($home, '/2026/10/07/13/') !== false, 'existing guide remains linked');
 check(strpos($home, '/7-dni-7-wyzwan/') !== false && strpos($home, '/sudoku-do-druku/') !== false, 'existing challenge and printable pages remain linked');
 check(substr_count($home, '<main') === 1, 'one main landmark');

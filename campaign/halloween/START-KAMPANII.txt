@@ -1,0 +1,52 @@
+HALLOWEENOWE ALIBI — URUCHOMIENIE
+
+1. WORDPRESS
+Wgraj grywmig-halloween-alibi-1.0.0.zip przez Wtyczki → Dodaj nową.
+Po aktywacji powstaje publiczna strona /halloweenowe-alibi/, jeżeli adres jest wolny.
+Istniejąca strona nie jest zmieniana: w takim przypadku dodaj shortcode
+[grywmig_halloween_alibi] do wybranej strony ręcznie.
+
+Opcjonalnie zaktualizuj nakładkę katalogu do grywmig-ulepszenia-1.0.3.zip.
+Pojawi się karta Halloweenowego Alibi. Karta pokazuje się tylko po publikacji
+strony gry. Stare Alibi oraz pozostałe gry pozostają osobnymi grami.
+
+2. POMIAR
+Przejdź na stronę gry z jednym z linków UTM w opisy-postow.txt.
+Sprawdź działanie obecnego banera zgód. W GA4 DebugView/raporcie czasu
+rzeczywistego sprawdź game_start i game_complete po poprawnym rozwiązaniu.
+Sam wybór odpowiedzi, zła odpowiedź lub odsłonięcie rozwiązania nie emitują
+game_complete. Gra nie instaluje własnego tagu Google; korzysta z już
+obecnego window.gtag, gdy witryna go udostępnia. Po wygranej kliknij Udostępnij:
+share_click mierzy otwarcie mechanizmu, a nie potwierdzony post na Facebooku.
+
+Jeśli nie ma tagu lub zdarzeń, najpierw popraw połączenie pomiaru strony.
+Nie uruchamiaj drugiego GA4 obok istniejącego. Nie zmieniaj mechanizmu zgód.
+
+3. FACEBOOK
+Docelowa strona: https://www.facebook.com/profile.php?id=61595039801968
+Zgodnie z wyborem użytkownika publikację przygotowujemy przez Metricool.
+Marka Gry w Mig (7616490) jest połączona z Facebookiem. Odczyt nazwy strony
+w Metricool potwierdził „Gry w Mig”. Publiczny profil ma adres podany wyżej;
+identyfikator zwracany przez połączenie API to 1308632369008099.
+Nie używaj do tej kampanii innych podłączonych marek.
+
+4. WSTĘPNY TEST 48 GODZIN
+T0: film 01 + opis 01; post z linkiem do przypięcia.
+T0 + 12 godzin: film 02 + opis 02.
+T0 + 24 godziny: film 03 + opis 03.
+Godziny liczone od faktycznego uruchomienia. Nie ustawiono automatycznego
+harmonogramu i nie wydano pieniędzy na reklamę.
+
+Po 48 godzinach zestaw ruch według utm_content: reel_01, reel_02, reel_03.
+Porównuj jednakowe okna od publikacji każdego filmu, np. pierwsze 12 godzin.
+Sprawdź sesje na /halloweenowe-alibi/, użytkowników zaczynających i kończących
+grę oraz kliknięcia udostępniania. Sam iloraz liczby zdarzeń nie jest lejkiem
+użytkowników. Przy małej liczbie wejść wynik jest wstępny; pora publikacji
+i różna widownia również wpływają na wynik. Nie gwarantujemy liczby wejść.
+
+5. MATERIAŁY
+Trzy filmy MP4, 1080 × 1920, 30 kl./s, po 18 sekund, H.264 + AAC.
+Nagrania pokazują działającą grę, z powiększonymi zeznaniami dla czytelności.
+Nie zdradzają odpowiedzi. Napisy są częścią filmu; muzyka jest autorskim,
+syntetycznym podkładem bez głosu. Brak licencjonowanego utworu z biblioteki.
+Miniatury PNG odpowiadają poszczególnym filmom.

@@ -24,9 +24,9 @@ try {
     await page.setViewportSize({ width, height: 1000 });
     await page.goto('http://127.0.0.1:8787/');
     await page.locator('.gwm-u-filters').waitFor({ state: 'visible' });
-    assert.equal(await page.locator('.gwm-u-card:visible').count(), 12); checks++;
+    assert.equal(await page.locator('.gwm-u-card:visible').count(), 13); checks++;
     assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)); checks++;
-    for (const [filter, count] of [['slowa', 4], ['logiczne', 6], ['3d', 2], ['all', 12]]) {
+    for (const [filter, count] of [['slowa', 4], ['logiczne', 7], ['3d', 2], ['all', 13]]) {
       await page.locator(`[data-gwm-filter="${filter}"]`).click();
       assert.equal(await page.locator('.gwm-u-card:visible').count(), count); checks++;
       assert.equal(await page.locator('.gwm-u-filter[aria-pressed="true"]').count(), 1); checks++;
@@ -36,7 +36,7 @@ try {
   const noJs = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 390, height: 900 } });
   const plain = await noJs.newPage();
   await plain.goto('http://127.0.0.1:8787/');
-  assert.equal(await plain.locator('.gwm-u-card:visible').count(), 12); checks++;
+  assert.equal(await plain.locator('.gwm-u-card:visible').count(), 13); checks++;
   assert.equal(await plain.locator('.gwm-u-filters:visible').count(), 0); checks++;
   await noJs.close();
   await page.goto('http://127.0.0.1:8787/');
