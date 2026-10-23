@@ -30,12 +30,18 @@ w Metricool potwierdził „Gry w Mig”. Publiczny profil ma adres podany wyże
 identyfikator zwracany przez połączenie API to 1308632369008099.
 Nie używaj do tej kampanii innych podłączonych marek.
 
-4. WSTĘPNY TEST 48 GODZIN
-T0: film 01 + opis 01; post z linkiem do przypięcia.
-T0 + 12 godzin: film 02 + opis 02.
-T0 + 24 godziny: film 03 + opis 03.
-Godziny liczone od faktycznego uruchomienia. Nie ustawiono automatycznego
-harmonogramu i nie wydano pieniędzy na reklamę.
+4. SZKICE W METRICOOL I TEST 48 GODZIN
+W marce 7616490 zapisano trzy rolki z wgranymi filmami i jeden post z linkiem.
+Wszystkie cztery wpisy mają potwierdzony status draft=true. Nie opublikują
+się automatycznie. Nie wydano pieniędzy na reklamę.
+
+Proponowane terminy szkiców (Europe/Warsaw), według wskazań Metricool:
+24.10.2026, 10:00 — film 01; 10:05 — post z linkiem do przypięcia.
+24.10.2026, 18:00 — film 02.
+25.10.2026, 10:00 — film 03. Tego dnia obowiązuje już czas UTC+1.
+Nie aktywuj publikacji przed sprawdzeniem publicznej strony gry.
+Jeśli uruchomienie nastąpi później, przesuń terminy szkiców na przyszłość.
+Bezpośrednie odnośniki do szkiców znajdują się w SZKICE-METRICOOL.txt.
 
 Po 48 godzinach zestaw ruch według utm_content: reel_01, reel_02, reel_03.
 Porównuj jednakowe okna od publikacji każdego filmu, np. pierwsze 12 godzin.
