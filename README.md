@@ -2,9 +2,11 @@
 
 Gotowa wtyczka do istniejącego WordPressa na grywmig.pl. Przygotowana po audycie strony i danych Search Console / GA4 z 23 października 2026.
 
-[**Pobierz ZIP do instalacji**](dist/grywmig-ulepszenia-1.0.0.zip)
+[**Pobierz ZIP do instalacji**](dist/grywmig-ulepszenia-1.0.1.zip)
 
 ## Co zmienia
+
+- Nowa stopka w delikatnej zieleni: oryginalne logo, skróty do gier, poradniki, PDF i informacje o serwisie. Zachowuje zarejestrowane menu stopki i ustawioną politykę prywatności. Moduł stopki można osobno wyłączyć.
 
 - Nowa strona główna w obecnej palecie: krem, zieleń i limonka. Wszystkie 12 gier znajduje się w HTML; filtry działają jako opcjonalne udogodnienie. Bez JavaScriptu nadal można uruchomić każdą grę.
 - Trzy dopasowane propozycje w „Zagraj dalej”, zamiast dziewięciu równorzędnych. Skróty do kolejnej gry także na ekranach wyniku Alibi, Hasła i Mahjong.
@@ -16,7 +18,7 @@ Wtyczka nie zastępuje motywu ani silników gier. Nie edytuje treści stron, zap
 
 ## Instalacja
 
-1. Pobierz gotowy plik `dist/grywmig-ulepszenia-1.0.0.zip` — archiwum całego repozytorium nie jest paczką instalacyjną wtyczki.
+1. Pobierz gotowy plik `dist/grywmig-ulepszenia-1.0.1.zip` — archiwum całego repozytorium nie jest paczką instalacyjną wtyczki.
 2. WordPress: **Wtyczki → Dodaj nową → Wyślij wtyczkę na serwer**, wybierz ZIP i włącz.
 3. Wyczyść cache strony / CDN, jeśli jest używany.
 4. Sprawdź stronę główną, filtry, Sudoku oraz zakończenie gry Alibi/Hasło/Mahjong. W źródle trzech poprawianych stron sprawdź pojedynczy opis meta. Nie zmieniaj istniejących adresów poradników.

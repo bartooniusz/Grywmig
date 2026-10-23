@@ -5,7 +5,7 @@ const root = resolve(import.meta.dirname, '..');
 await mkdir(join(root, 'dist/assets'), { recursive: true });
 let html = execFileSync('node', ['work/node_modules/@php-wasm/cli/php-wasm.js', 'test/render.php'], { cwd: root, env: { ...process.env, PHP: '7.4' }, encoding: 'utf8' });
 if (!html.startsWith('<!doctype html>') || html.includes('Fatal error')) throw new Error('PHP render failed');
-html = html.replaceAll('http://127.0.0.1:8787/', 'https://grywmig.pl/').replaceAll('/plugins/grywmig-ulepszenia/assets/', '/assets/').replaceAll('/test/output/theme.css', '/assets/theme.css').replaceAll('/dist/grywmig-ulepszenia-1.0.0.zip', '/grywmig-ulepszenia-1.0.0.zip').replaceAll('/test/fixtures/original-header.', '/assets/original-header.').replace('href="https://grywmig.pl/#gry"', 'href="#gry"');
+html = html.replaceAll('http://127.0.0.1:8787/', 'https://grywmig.pl/').replaceAll('/plugins/grywmig-ulepszenia/assets/', '/assets/').replaceAll('/test/output/theme.css', '/assets/theme.css').replaceAll('/dist/grywmig-ulepszenia-1.0.1.zip', '/grywmig-ulepszenia-1.0.1.zip').replaceAll('/test/fixtures/original-header.', '/assets/original-header.').replace('href="https://grywmig.pl/#gry"', 'href="#gry"');
 await writeFile(join(root, 'dist/index.html'), html);
 await copyFile(join(root, 'test/output/theme.css'), join(root, 'dist/assets/theme.css'));
 for (const name of ['original-header.css', 'original-header.js']) await copyFile(join(root, 'test/fixtures', name), join(root, 'dist/assets', name));

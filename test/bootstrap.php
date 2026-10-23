@@ -32,12 +32,19 @@ function wp_trim_words($text, $count) { return $text; }
 function wp_enqueue_style() {}
 function wp_enqueue_script() {}
 function wp_add_inline_script() {}
+function home_url($path = '/') { return 'http://127.0.0.1:8787' . $path; }
+function get_privacy_policy_url() { return ''; }
+function wp_date($format) { return date($format); }
+function wp_nav_menu($args) {}
 require __DIR__ . '/../plugins/grywmig-ulepszenia/grywmig-ulepszenia.php';
 
 function get_header() {
-    echo '<!doctype html><html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Gry w Mig — podgląd zmian</title><link rel="icon" href="https://grywmig.pl/wp-content/plugins/grywmig-anagram/assets/brand/gry-w-mig-icon-142.png"><link rel="stylesheet" href="/test/output/theme.css"><link rel="stylesheet" href="/plugins/grywmig-ulepszenia/assets/site.css"><link rel="stylesheet" href="/test/fixtures/original-header.css"><style>body{margin:0;font-family:system-ui,sans-serif}.preview-label{padding:8px 16px;background:#172b3a;color:#fffefa;text-align:center;font-size:12px}.preview-label a{color:#d8f36a}</style></head><body class="gwm-u-home-page gwm-brand-120 gwm-mystery-available"><div class="preview-label">Podgląd nowego katalogu • <a href="/dist/grywmig-ulepszenia-1.0.0.zip" download>Pobierz wtyczkę WordPress</a></div>';
+    echo '<!doctype html><html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Gry w Mig — podgląd zmian</title><link rel="icon" href="https://grywmig.pl/wp-content/plugins/grywmig-anagram/assets/brand/gry-w-mig-icon-142.png"><link rel="stylesheet" href="/test/output/theme.css"><link rel="stylesheet" href="/plugins/grywmig-ulepszenia/assets/site.css"><link rel="stylesheet" href="/test/fixtures/original-header.css"><style>body{margin:0;font-family:system-ui,sans-serif}.preview-label{padding:8px 16px;background:#172b3a;color:#fffefa;text-align:center;font-size:12px}.preview-label a{color:#d8f36a}</style></head><body class="gwm-u-home-page gwm-brand-120 gwm-mystery-available gwm-u-footer-active"><div class="preview-label">Podgląd nowego katalogu • <a href="/dist/grywmig-ulepszenia-1.0.1.zip" download>Pobierz wtyczkę WordPress</a></div>';
     echo file_get_contents(__DIR__ . '/fixtures/original-header.html');
 }
 function get_footer() {
-    echo '<footer class="site-footer"><div class="wrap"><p>Gry w Mig · Twoja chwila na dobrą grę.</p></div></footer><script src="/plugins/grywmig-ulepszenia/assets/site.js"></script><script src="/test/fixtures/original-header.js"></script></body></html>';
+    foreach ($GLOBALS['hooks']['get_footer'] ?? array() as $callback) { $callback(); }
+    echo '<footer class="site-footer"><div class="wrap"><p>Gry w Mig · Twoja chwila na dobrą grę.</p></div></footer>';
+    foreach ($GLOBALS['hooks']['wp_footer'] ?? array() as $callback) { $callback(); }
+    echo '<script src="/plugins/grywmig-ulepszenia/assets/site.js"></script><script src="/test/fixtures/original-header.js"></script></body></html>';
 }

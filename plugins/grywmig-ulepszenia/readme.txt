@@ -2,14 +2,14 @@
 Contributors: grywmig
 Requires at least: 6.2
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPL-2.0-or-later
 
 Katalog gier, polecenia kolejnej gry i uzupełnienia SEO dla grywmig.pl.
 
 == Instalacja ==
 1. W panelu WordPress wybierz Wtyczki → Dodaj nową → Wyślij wtyczkę na serwer.
-2. Wskaż grywmig-ulepszenia-1.0.0.zip, zainstaluj i włącz.
+2. Wskaż grywmig-ulepszenia-1.0.1.zip, zainstaluj i włącz.
 3. Jeśli używasz cache strony lub CDN, wyczyść cache po włączeniu.
 4. Sprawdź stronę główną, Sudoku, Alibi, Hasło w Mig i obie gry 3D.
 
@@ -18,6 +18,8 @@ Wyłączenie całej wtyczki przywraca poprzedni wygląd. Wtyczka nie edytuje tre
 stron, motywu, mechaniki gier, wyników lokalnych ani ustawień analityki.
 
 == Zawartość ==
+* Nowa stopka z oryginalnym logo, linkami do gier, poradników i informacjami
+  o serwisie. Zachowuje menu stopki oraz ustawioną politykę prywatności.
 * Strona główna: wszystkie opublikowane gry w HTML, filtry, bezpośrednie
   odnośniki do krzyżówki, Hasła i Alibi, obecne poradniki, PDF i wyzwanie 7 dni.
 * Zagraj dalej: trzy powiązane gry, dotychczasowe atrybuty pomiaru kliknięć.
@@ -43,5 +45,8 @@ oraz kopii publicznego CSS motywu. Pełny test na aktywnym WordPressie
 wymaga instalacji i dostępu do panelu. Nie gwarantujemy wzrostu pozycji.
 
 == Zmiany ==
+= 1.0.1 =
+Nowa responsywna stopka, z osobnym przełącznikiem w ustawieniach.
+
 = 1.0.0 =
 Pierwsza wersja nakładki. Wersja nie zmienia samych silników gier.

@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Gry w Mig — wygodniej graj
  * Description: Katalog 12 gier, trafniejsze polecenia, zwarty widok gry i uzupełnienia SEO dla grywmig.pl.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Requires at least: 6.2
  * Requires PHP: 7.4
  * Author: Gry w Mig
@@ -15,11 +15,11 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-const VERSION = '1.0.0';
+const VERSION = '1.0.1';
 const OPTION = 'gwm_ulepszenia_options';
 
 function options() {
-    return wp_parse_args(get_option(OPTION, array()), array('home' => 1, 'next' => 1, 'compact' => 1, 'seo' => 1));
+    return wp_parse_args(get_option(OPTION, array()), array('home' => 1, 'next' => 1, 'compact' => 1, 'seo' => 1, 'footer' => 1));
 }
 
 /** Published pages are resolved at render time; activation never creates or edits a page. */
@@ -172,18 +172,27 @@ add_filter('template_include', function ($template) {
 add_filter('body_class', function ($classes) {
     if (home_enabled()) { $classes[] = 'gwm-u-home-page'; }
     if (current_game() && options()['compact']) { $classes[] = 'gwm-u-game-page'; }
+    if (footer_enabled()) { $classes[] = 'gwm-u-footer-active'; }
     return $classes;
 });
 
 add_action('wp_enqueue_scripts', function () {
     $id = current_game();
-    if (!home_enabled() && !$id) { return; }
+    if (!home_enabled() && !$id && !footer_enabled()) { return; }
     wp_enqueue_style('gwm-ulepszenia', plugins_url('assets/site.css', __FILE__), array(), VERSION);
     wp_enqueue_script('gwm-ulepszenia', plugins_url('assets/site.js', __FILE__), array(), VERSION, true);
     if ($id && options()['next']) {
         wp_add_inline_script('gwm-ulepszenia', 'window.gwmUpgrade=' . wp_json_encode(array('from' => $id, 'next' => recommendations($id))) . ';', 'before');
     }
 }, 100);
+
+function footer_enabled() {
+    return options()['footer'] && !is_admin() && !is_feed() && !is_embed();
+}
+
+add_action('get_footer', function () {
+    if (footer_enabled()) { require __DIR__ . '/templates/footer.php'; }
+}, 5);
 
 function seo_data() {
     if (!options()['seo'] || !is_page()) { return array(); }
@@ -225,11 +234,11 @@ add_action('wp_head', function () {
     echo '<meta name="description" content="' . esc_attr($data[1]) . '">' . "\n";
 }, 2);
 
-// All four changes can be toggled separately; deleting the plugin leaves page content intact.
+// Each module can be toggled separately; deleting the plugin leaves page content intact.
 add_action('admin_init', function () {
     register_setting('gwm_ulepszenia', OPTION, array('type' => 'array', 'sanitize_callback' => function ($value) {
         $safe = array();
-        foreach (array('home', 'next', 'compact', 'seo') as $key) { $safe[$key] = !empty($value[$key]) ? 1 : 0; }
+        foreach (array('home', 'next', 'compact', 'seo', 'footer') as $key) { $safe[$key] = !empty($value[$key]) ? 1 : 0; }
         return $safe;
     }, 'default' => array()));
 });
@@ -239,7 +248,7 @@ add_action('admin_menu', function () {
         $settings = options();
         echo '<div class="wrap"><h1>Gry w Mig — ulepszenia</h1><p>Zmiany działają jako nakładka. Wyłączenie modułu przywraca poprzedni widok.</p><form method="post" action="options.php">';
         settings_fields('gwm_ulepszenia');
-        foreach (array('home' => 'Nowa strona główna i katalog gier', 'next' => 'Trzy dopasowane gry w sekcji Zagraj dalej', 'compact' => 'Zwarty nagłówek stron gier i układ Sudoku', 'seo' => 'Uzupełnienia tytułów i brakujących opisów SEO') as $key => $label) {
+        foreach (array('home' => 'Nowa strona główna i katalog gier', 'next' => 'Trzy dopasowane gry w sekcji Zagraj dalej', 'compact' => 'Zwarty nagłówek stron gier i układ Sudoku', 'seo' => 'Uzupełnienia tytułów i brakujących opisów SEO', 'footer' => 'Nowa stopka z linkami do gier i poradników') as $key => $label) {
             echo '<p><label><input type="checkbox" name="' . esc_attr(OPTION) . '[' . esc_attr($key) . ']" value="1" ' . checked($settings[$key], 1, false) . '> ' . esc_html($label) . '</label></p>';
         }
         submit_button('Zapisz zmiany');
