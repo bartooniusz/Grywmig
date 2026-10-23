@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Gry w Mig — wygodniej graj
  * Description: Katalog 12 gier, trafniejsze polecenia, zwarty widok gry i uzupełnienia SEO dla grywmig.pl.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Requires at least: 6.2
  * Requires PHP: 7.4
  * Author: Gry w Mig
@@ -15,7 +15,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-const VERSION = '1.0.1';
+const VERSION = '1.0.2';
 const OPTION = 'gwm_ulepszenia_options';
 
 function options() {

@@ -17,5 +17,5 @@ with zipfile.ZipFile(sys.argv[1], 'w', zipfile.ZIP_DEFLATED, compresslevel=9) as
   info.compress_type=zipfile.ZIP_DEFLATED
   info.external_attr=0o100644 << 16
   out.writestr(info, base64.b64decode(item['data']))
-`, join(root, 'dist/grywmig-ulepszenia-1.0.1.zip')], { input: JSON.stringify(entries) });
-console.log(`Built dist/grywmig-ulepszenia-1.0.1.zip (${entries.length} files)`);
+`, join(root, 'dist/grywmig-ulepszenia-1.0.2.zip')], { input: JSON.stringify(entries) });
+console.log(`Built dist/grywmig-ulepszenia-1.0.2.zip (${entries.length} files)`);
