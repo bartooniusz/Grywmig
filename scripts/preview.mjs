@@ -1,0 +1,14 @@
+import { mkdir, readFile, copyFile, writeFile } from 'node:fs/promises';
+import { execFileSync } from 'node:child_process';
+import { resolve, join } from 'node:path';
+const root = resolve(import.meta.dirname, '..');
+await mkdir(join(root, 'preview/assets'), { recursive: true });
+let html = execFileSync('node', ['work/node_modules/@php-wasm/cli/php-wasm.js', 'test/render.php'], { cwd: root, env: { ...process.env, PHP: '7.4' }, encoding: 'utf8' });
+if (!html.startsWith('<!doctype html>') || html.includes('Fatal error')) throw new Error('PHP render failed');
+html = html.replaceAll('http://127.0.0.1:8787/', 'https://grywmig.pl/').replaceAll('/plugins/grywmig-ulepszenia/assets/', '/assets/').replaceAll('/test/output/theme.css', '/assets/theme.css').replaceAll('/dist/grywmig-ulepszenia-1.0.0.zip', '/grywmig-ulepszenia-1.0.0.zip');
+await writeFile(join(root, 'preview/index.html'), html);
+await copyFile(join(root, 'test/output/theme.css'), join(root, 'preview/assets/theme.css'));
+for (const name of ['site.css', 'site.js', 'games.svg']) await copyFile(join(root, 'plugins/grywmig-ulepszenia/assets', name), join(root, 'preview/assets', name));
+await copyFile(join(root, 'dist/grywmig-ulepszenia-1.0.0.zip'), join(root, 'preview/grywmig-ulepszenia-1.0.0.zip'));
+await writeFile(join(root, 'preview/robots.txt'), 'User-agent: *\nDisallow: /\n');
+console.log('Built private preview/ with plugin download and links to actual games.');
