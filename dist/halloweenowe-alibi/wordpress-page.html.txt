@@ -1,0 +1,219 @@
+<!-- wp:paragraph -->
+<p>Trzy krótkie zagadki na Halloween. Przeczytaj zeznania, połącz fakty i znajdź jedynego kłamcę. Za darmo, po polsku i bez logowania.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div data-gwm-halloween-embed><iframe title="Halloweenowe Alibi — trzy zagadki logiczne" style="display:block;width:100%;height:1100px;border:0;border-radius:20px;background:#fbf8f0" allow="clipboard-write; web-share" srcdoc="&lt;!doctype html&gt;
+&lt;html lang=&quot;pl&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot;&gt;&lt;meta name=&quot;robots&quot; content=&quot;noindex,follow&quot;&gt;&lt;meta name=&quot;description&quot; content=&quot;Trzy halloweenowe zagadki po polsku. Porównaj zeznania i wskaż sprawcę oraz jedynego kłamcę.&quot;&gt;&lt;title&gt;Halloweenowe Alibi — Gry w Mig&lt;/title&gt;&lt;link rel=&quot;icon&quot; href=&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTYiIGZpbGw9IiNlZGYyZTUiLz48cGF0aCBkPSJNMzEgMThxLTMtOSA2LTEybDQgNXEtNyAyLTUgOSIgZmlsbD0iIzA4N2U3OSIvPjxlbGxpcHNlIGN4PSIzMiIgY3k9IjM2IiByeD0iMjUiIHJ5PSIyMSIgZmlsbD0iI2VmYWM2NSIvPjxlbGxpcHNlIGN4PSIzMiIgY3k9IjM2IiByeD0iMTMiIHJ5PSIyMSIgZmlsbD0iI2ZmYzQ3NiIvPjxwYXRoIGQ9Im0xNiAzMSAxMC03IDUgMTJabTE4IDUgNS0xMiAxMCA3Wk0xOSA0MXExMyAxMCAyNiAwbC00IDEwSDIzWiIgZmlsbD0iIzE3NGQ0NCIvPjwvc3ZnPgo=&quot; type=&quot;image/svg+xml&quot;&gt;&lt;style&gt;*{box-sizing:border-box}html{color-scheme:light;scroll-behavior:smooth}body{margin:0;background:#fbf8f0;color:#172b3a;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:15px;line-height:1.6}button,a,input,textarea{font:inherit}button,a{-webkit-tap-highlight-color:transparent}button{cursor:pointer}button:disabled{cursor:default;opacity:.45}a{color:#056762}button:focus-visible,a:focus-visible,summary:focus-visible,textarea:focus-visible{outline:3px solid #ff8066;outline-offset:4px}[hidden]{display:none!important}.game-shell{max-width:1060px;margin:auto;padding:0 28px}.game-header{display:flex;justify-content:space-between;align-items:center;gap:12px;border-bottom:1px solid #e6e2d8;padding:21px 0}.site-name{font-size:13px;font-weight:750;text-decoration:none;color:#172b3a}.site-name span{color:#a7b4a5;margin:0 9px}.edition{font-size:11px;font-weight:700;color:#536a5c;background:#edf1e5;border:1px solid #dce3d4;padding:5px 10px;border-radius:99px}.cover{display:grid;grid-template-columns:1fr 1.1fr;gap:34px;align-items:center;padding:45px 0 42px}.eyebrow{font-size:10px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#056762;margin:0 0 10px}.eyebrow&gt;span{font-size:20px;vertical-align:middle;margin-right:4px}.cover h1{font-size:clamp(43px,5.5vw,67px);letter-spacing:-.06em;line-height:1.03;margin:13px 0 22px}.cover h1 span{color:#087e79}.cover-lead{font-size:23px;letter-spacing:-.025em;line-height:1.35;font-weight:700;margin:0 0 16px}.cover-description{color:#63717b;font-size:14px;max-width:365px;margin:0 0 22px}.primary,.secondary{display:inline-flex;align-items:center;justify-content:center;gap:20px;border:1px solid #056762;border-radius:12px;background:#056762;color:#fffefa;font-size:13px;font-weight:750;line-height:1.5;padding:13px 18px;min-height:47px;box-shadow:0 3px 0 #dae2d4}.primary:hover:not(:disabled){background:#04534f}.primary&gt;span{font-size:19px;line-height:1}.quiet{font-size:11px;color:#63717b;margin:13px 0 0}.cover-art{position:relative;align-self:stretch;display:flex;align-items:center}.cover-art&gt;img{display:block;width:100%;height:auto;border-radius:28px;background:#e9efe3}.art-note{position:absolute;left:20px;right:20px;bottom:12px;background:#fffefaed;border:1px solid #dce4d3;border-radius:15px;display:flex;align-items:center;gap:12px;padding:13px 16px;box-shadow:0 6px 20px #172b3a08}.art-note&gt;span{font-size:30px;color:#087e79}.art-note strong{font-size:12px;display:block}.art-note div&gt;span{font-size:10px;color:#63717b;display:block}.case-top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:20px 0}.back{font-size:12px;text-decoration:none;font-weight:650}.timer{font-variant-numeric:tabular-nums;font-size:12px;font-weight:750;color:#63717b}.case-progress{display:flex;gap:6px}.case-progress span{width:24px;height:5px;border-radius:5px;background:#e0e5d8}.case-progress .active{background:#087e79}.case-progress .solved{background:#b5cf53}.case-heading{display:flex;align-items:center;justify-content:space-between;gap:20px;margin:5px 0 13px}.case-heading h1{font-size:clamp(26px,3.8vw,38px);letter-spacing:-.04em;line-height:1.15;margin:0;outline:none}.case-heading .eyebrow{margin-bottom:7px}.case-number{font-size:11px;font-weight:750;color:#056762;background:#e8eddd;border:1px solid #d9e2cb;padding:7px 11px;border-radius:99px;white-space:nowrap}.story{font-size:14px;line-height:1.75;color:#566975;max-width:850px;margin:0 0 15px}.rule{display:flex;align-items:center;gap:10px;background:#f1eedf;border:1px solid #e6e0c9;border-radius:11px;padding:10px 14px;font-size:12px;color:#5b6049;margin:0 0 21px}.rule&gt;span{display:grid;place-items:center;flex:0 0 22px;height:22px;background:#e0d9b3;border-radius:50%;font-weight:800}.witnesses{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:22px}.witnesses.four{grid-template-columns:repeat(4,minmax(0,1fr))}.witness{background:#fffefa;border:1px solid #e0e3d7;border-radius:17px;overflow:hidden;box-shadow:0 3px 0 #eeeee3}.witness-identity{display:flex;align-items:center;gap:11px;padding:16px 15px 12px;background:#edf1e5}.witness:nth-child(2) .witness-identity{background:#eee8dd}.witness:nth-child(3) .witness-identity{background:#e5edf0}.witness:nth-child(4) .witness-identity{background:#efe8dc}.avatar{width:43px;height:43px;border-radius:50%;background:#fffefa;display:grid;place-items:center;flex-shrink:0}.avatar svg{width:32px;height:32px}.witness strong{display:block;font-size:15px;letter-spacing:-.02em}.witness small{display:block;font-size:10px;color:#65736a}.witness blockquote{margin:0;padding:17px 16px 20px;line-height:1.6;font-size:15px;font-weight:650;min-height:100px;letter-spacing:-.015em}.deduction{padding:22px 24px;background:#edf2e8;border:1px solid #d8e2ce;border-radius:19px}.deduction-heading{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:19px}.deduction-heading .eyebrow{margin-bottom:3px}.deduction-heading h2{font-size:24px;line-height:1.2;letter-spacing:-.035em;margin:0}.deduction-heading&gt;span{font-size:31px;color:#087e79;background:#d8f36a;width:43px;height:43px;border-radius:13px;text-align:center}fieldset{border:0;padding:0;margin:0 0 15px;min-width:0}legend{font-size:12px;font-weight:750;margin:0 0 7px}.choices{display:flex;gap:8px;flex-wrap:wrap}.choice{min-height:43px;padding:9px 18px;border-radius:10px;border:1px solid #d2ddc8;background:#fffefa;color:#34544c;font-size:13px;font-weight:700}.choice[aria-pressed=true]{border-color:#087e79;background:#087e79;color:white;box-shadow:0 0 0 2px #087e7922}.check{margin-top:2px}.status{font-size:12px;color:#5a7162;margin:12px 0 0;min-height:20px}.status.error{color:#93462d}.help{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:16px 0}.help button,.play-footer button{background:none;border:0;font-size:12px;color:#52705f;padding:7px 0;text-decoration:underline;text-underline-offset:4px;min-height:36px}.help button:first-child{font-weight:750}.help button&gt;span{font-weight:500;color:#798878;margin-left:5px}.hint-text,.reveal-confirm{padding:15px 18px;background:#fff5df;border:1px solid #eadbbb;border-radius:13px;color:#695a3e;font-size:13px;margin:0 0 18px}.reveal-confirm p{margin:0 0 10px}.reveal-confirm button{font-size:12px;padding:9px 12px;border:1px solid #d8c899;background:#fffefa;border-radius:9px;color:#5e563f;margin:3px 7px 3px 0}.result{background:#fffefa;border:1px solid #d3dfc7;border-radius:20px;padding:27px;margin:24px 0;box-shadow:0 5px 0 #e5ecda;outline:none}.result h2{font-size:32px;line-height:1.15;letter-spacing:-.045em;margin:0 0 13px}.result&gt;p:not(.eyebrow){font-size:14px;color:#596d63;margin:0 0 16px}.result-facts{display:flex;flex-wrap:wrap;gap:8px;margin:15px 0 19px}.result-facts span{font-size:11px;background:#edf2e5;border:1px solid #dce4d4;padding:6px 10px;border-radius:8px;color:#365c4a}.result details{border-top:1px solid #e2e7da;border-bottom:1px solid #e2e7da;padding:14px 0;margin-bottom:20px;font-size:13px;color:#566c5e}.result summary{cursor:pointer;font-weight:750;color:#345d4b}.result details p{line-height:1.8}.result ul{list-style:none;padding:0}.result li{padding:5px 0}.truth-badge{display:inline-block;min-width:58px;font-size:10px;font-weight:800;color:#087e79}.truth-badge.lie{color:#a55037}.result-actions{display:flex;gap:10px;flex-wrap:wrap}.secondary{background:#fffefa;color:#056762;border-color:#d6dfce;box-shadow:none}.result textarea{width:100%;padding:12px;border:1px solid #d3dfc7;border-radius:10px;font-size:12px;resize:vertical}.play-footer{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:10px;color:#7a877c;margin:10px 0 25px}.more-games{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:24px 0;border-top:1px solid #e1e5d8;margin-top:12px}.more-games strong{display:block;font-size:14px}.more-games p{font-size:12px;color:#63717b;margin:4px 0 0}.more-games a{font-size:12px;white-space:nowrap;font-weight:750;text-decoration:none}.more-games a span{margin-left:9px}.game-footer{display:flex;justify-content:space-between;gap:15px;font-size:10px;color:#7a877c;border-top:1px solid #e6e2d8;padding:18px 0 23px}
+@media(max-width:720px){.game-shell{padding:0 17px}.edition{display:none}.game-header{padding:15px 0}.site-name{font-size:11px}.cover{grid-template-columns:1fr;gap:20px;padding:25px 0 27px}.cover h1{font-size:49px;margin:12px 0 17px}.cover-lead{font-size:21px}.cover-description{max-width:440px}.cover-art{order:-1;max-height:190px;overflow:hidden;border-radius:21px}.cover-art&gt;img{height:235px;object-fit:cover;object-position:center 54%;border-radius:21px}.art-note{left:auto;right:12px;bottom:12px;padding:9px 12px;gap:8px;max-width:235px}.art-note&gt;span{font-size:24px}.art-note strong{font-size:10px}.art-note div&gt;span{font-size:9px}.cover-copy&gt;.eyebrow{display:none}.cover h1 br{display:none}.cover h1{font-size:clamp(36px,8.7vw,48px)}.witnesses,.witnesses.four{grid-template-columns:1fr;gap:9px;margin-bottom:17px}.witness{display:grid;grid-template-columns:105px 1fr;border-radius:13px}.witness-identity{flex-direction:column;gap:4px;padding:10px 8px;text-align:center}.avatar{width:32px;height:32px}.avatar svg{width:25px;height:25px}.witness strong{font-size:13px}.witness small{font-size:8px}.witness blockquote{padding:14px;display:flex;align-items:center;font-size:14px;min-height:91px}.case-top{padding:15px 0}.case-heading{gap:12px;margin-top:0}.case-heading h1{font-size:27px}.case-number{padding:5px 8px;font-size:9px}.story{font-size:12px;line-height:1.75;margin-bottom:12px}.rule{font-size:10px;line-height:1.65;padding:9px 11px;margin-bottom:14px}.deduction{padding:17px}.deduction-heading{margin-bottom:15px}.deduction-heading h2{font-size:22px}.deduction-heading .eyebrow{font-size:8px}.choice{padding:9px 15px;min-height:44px}.result{padding:21px}.result h2{font-size:29px}.result-actions&gt;*{width:100%}.more-games{align-items:flex-start;flex-direction:column;gap:13px;padding:20px 0}.more-games strong{font-size:13px}.game-footer{flex-direction:column;gap:4px}.play-footer{align-items:flex-start;flex-direction:column;gap:3px}.help button{font-size:11px}.cover-description{font-size:13px}.cover .primary{width:100%}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media(max-width:720px){.cover h1 span{margin-left:.16em}}
+&lt;/style&gt;&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&quot;game-shell&quot;&gt;
+  &lt;header class=&quot;game-header&quot;&gt;&lt;a href=&quot;https://grywmig.pl/&quot; target=&quot;_top&quot; class=&quot;site-name&quot;&gt;Gry w Mig &lt;span aria-hidden=&quot;true&quot;&gt;/&lt;/span&gt; Edycja Halloween&lt;/a&gt;&lt;span class=&quot;edition&quot;&gt;3 sprawy do odkrycia&lt;/span&gt;&lt;/header&gt;
+  &lt;main id=&quot;game-main&quot;&gt;
+    &lt;section class=&quot;cover&quot; id=&quot;cover&quot; aria-labelledby=&quot;cover-title&quot;&gt;
+      &lt;div class=&quot;cover-copy&quot;&gt;&lt;p class=&quot;eyebrow&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;✦&lt;/span&gt; Mała zagadka. Wielka tajemnica.&lt;/p&gt;&lt;h1 id=&quot;cover-title&quot;&gt;Halloweenowe&lt;br&gt;&lt;span&gt;Alibi.&lt;/span&gt;&lt;/h1&gt;&lt;p class=&quot;cover-lead&quot;&gt;Jeden świadek kłamie.&lt;br&gt;Odkryjesz który?&lt;/p&gt;&lt;p class=&quot;cover-description&quot;&gt;Trzy krótkie sprawy, maski i zaginiona latarnia. Przeczytaj zeznania, wskaż sprawcę i znajdź jedynego kłamcę.&lt;/p&gt;&lt;button class=&quot;primary&quot; id=&quot;start&quot; type=&quot;button&quot;&gt;Zbadaj pierwszą sprawę &lt;span aria-hidden=&quot;true&quot;&gt;→&lt;/span&gt;&lt;/button&gt;&lt;p class=&quot;quiet&quot;&gt;Bez logowania. Bez presji czasu.&lt;/p&gt;&lt;/div&gt;
+      &lt;div class=&quot;cover-art&quot;&gt;&lt;img src=&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNjAwIj48ZGVmcz48cGF0dGVybiBpZD0id2FsbCIgd2lkdGg9IjQ0IiBoZWlnaHQ9IjQ0IiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48cGF0aCBkPSJNMjIgOHYyOE04IDIyaDI4IiBzdHJva2U9IiNjNGQ0YmQiIG9wYWNpdHk9Ii40Ii8+PC9wYXR0ZXJuPjxyYWRpYWxHcmFkaWVudCBpZD0ibGlnaHQiPjxzdG9wIHN0b3AtY29sb3I9IiNmZmYwYTgiIHN0b3Atb3BhY2l0eT0iLjgiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZmYwYTgiIHN0b3Atb3BhY2l0eT0iMCIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiByeD0iMzIiIGZpbGw9IiNlN2VmZGYiLz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgZmlsbD0idXJsKCN3YWxsKSIvPjxwYXRoIGQ9Ik0wIDQ1NWg4MDB2MTQ1SDBaIiBmaWxsPSIjZDdkZmM4Ii8+PHBhdGggZD0iTTAgNDU1aDgwMCIgc3Ryb2tlPSIjYjljOGFiIiBzdHJva2Utd2lkdGg9IjUiLz48cGF0aCBkPSJNNzAgMzJoLTN2NDUwbTY2Ni00NTBoLTN2NDUwIiBzdHJva2U9IiNkNGRlYzkiIHN0cm9rZS13aWR0aD0iNCIvPjxyZWN0IHg9IjIyNyIgeT0iNjAiIHdpZHRoPSIzNDYiIGhlaWdodD0iMzQ2IiByeD0iMTY2IiBmaWxsPSIjYTViYzljIi8+PHBhdGggZD0iTTI0NyAzODZWMjIxYTE1MyAxNTMgMCAwIDEgMzA2IDB2MTY1WiIgZmlsbD0iIzE2NGQ0OSIvPjxjaXJjbGUgY3g9IjQ2NyIgY3k9IjE1NCIgcj0iNTEiIGZpbGw9IiNmNWViYmUiLz48Y2lyY2xlIGN4PSI0ODciIGN5PSIxMzgiIHI9IjQ3IiBmaWxsPSIjMTY0ZDQ5Ii8+PGcgZmlsbD0iI2NkZTE4ZiI+PHBhdGggZD0ibTMyOCAxMTYgNCA5IDEwIDMtMTAgMy00IDktMy05LTEwLTMgMTAtM1oiLz48cGF0aCBkPSJtNTA1IDI2MyAzIDcgNyAyLTcgMi0zIDctMi03LTgtMiA4LTJaIi8+PGNpcmNsZSBjeD0iMjk3IiBjeT0iMjIyIiByPSIzIi8+PGNpcmNsZSBjeD0iNTE4IiBjeT0iMTg1IiByPSIzIi8+PGNpcmNsZSBjeD0iMzU2IiBjeT0iODYiIHI9IjMiLz48L2c+PHBhdGggZD0iTTQwMCA2OXYzMTdNMjQ4IDI0MmgzMDYiIHN0cm9rZT0iI2I4YzlhYSIgc3Ryb2tlLXdpZHRoPSIxMiIvPjxwYXRoIGQ9Ik0yMTcgMzkwaDM2NnYyMkgyMTdaIiBmaWxsPSIjYjhjOWFhIi8+PHBhdGggZD0iTTE2OSAwcS0xMyAxNzcgNzEgMjk4bC00NyAxOXEtNzctMTEwLTY5LTMxN1oiIGZpbGw9IiM5OGI0OTEiLz48cGF0aCBkPSJNNjMxIDBxMTMgMTc3LTcxIDI5OGw0NyAxOXE3Ny0xMTAgNjktMzE3WiIgZmlsbD0iIzk4YjQ5MSIvPjxwYXRoIGQ9Im0xNjAgMjc2IDQ5IDE0IiBzdHJva2U9IiM2ZTk4N2UiIHN0cm9rZS13aWR0aD0iOSIvPjxwYXRoIGQ9Im01OTEgMjkwIDQ5LTE0IiBzdHJva2U9IiM2ZTk4N2UiIHN0cm9rZS13aWR0aD0iOSIvPjxlbGxpcHNlIGN4PSI0MDAiIGN5PSI0MzAiIHJ4PSIyMjgiIHJ5PSIxNTQiIGZpbGw9InVybCgjbGlnaHQpIi8+PHBhdGggZD0iTTEyNyA0NDJxMjYzLTM2IDU0NiAwdjM1SDEyN1oiIGZpbGw9IiM3Mzk0N2MiLz48cGF0aCBkPSJNMTUxIDQ3N2gyNHYxMjNoLTI0bTQ1MC0xMjNoMjR2MTIzaC0yNCIgZmlsbD0iIzUyNzQ1ZiIvPjxlbGxpcHNlIGN4PSI0MDMiIGN5PSI0MzkiIHJ4PSIxMzUiIHJ5PSIyMiIgZmlsbD0iIzUyNzQ1ZiIgb3BhY2l0eT0iLjIyIi8+PGc+PHBhdGggZD0iTTM3OCAyNjFxLTQtMzEgMjQtNDFsMTEgMTNxLTIyIDEyLTE3IDMzWiIgZmlsbD0iIzYzODY1YSIvPjxlbGxpcHNlIGN4PSI0MDAiIGN5PSIzNTEiIHJ4PSIxMDgiIHJ5PSI4OCIgZmlsbD0iI2U3OWI1NSIvPjxlbGxpcHNlIGN4PSIzNjQiIGN5PSIzNTEiIHJ4PSI2MiIgcnk9Ijg1IiBmaWxsPSIjZjZiMjYzIi8+PGVsbGlwc2UgY3g9IjQyOSIgY3k9IjM1MSIgcng9IjY2IiByeT0iODUiIGZpbGw9IiNlZGExNTgiLz48ZWxsaXBzZSBjeD0iMzk2IiBjeT0iMzUxIiByeD0iNDMiIHJ5PSI4NiIgZmlsbD0iI2ZmYzQ3NiIvPjxwYXRoIGQ9Im0zNDQgMzI0IDI1LTE3IDEzIDMwWiIgZmlsbD0iIzE4NGQ0MyIvPjxwYXRoIGQ9Im00MTggMzM3IDE0LTMwIDI1IDE3WiIgZmlsbD0iIzE4NGQ0MyIvPjxwYXRoIGQ9Im0zODkgMzQ4IDktMTQgMTAgMTRaIiBmaWxsPSIjMTg0ZDQzIi8+PHBhdGggZD0iTTM0OSAzNjVxNDggMzIgOTggMGwtMTAgMjgtMTYtMi04IDEyaC0yOWwtOC0xMi0xNiAxWiIgZmlsbD0iIzE4NGQ0MyIvPjxwYXRoIGQ9Im0zNTcgMzcxIDExIDR2MTNsLTktMVoiIGZpbGw9IiNmOWU1YTUiLz48cGF0aCBkPSJtNDI0IDM3NSAxMy00LTQgMTUtOSAzWiIgZmlsbD0iI2Y5ZTVhNSIvPjwvZz48ZyB0cmFuc2Zvcm09InJvdGF0ZSgtMTAgMjE2IDQwNSkiPjxyZWN0IHg9IjE1NCIgeT0iMzQzIiB3aWR0aD0iODMiIGhlaWdodD0iOTEiIHJ4PSI3IiBmaWxsPSIjZmZmZGYxIiBzdHJva2U9IiNjMmNmYjUiIHN0cm9rZS13aWR0aD0iMiIvPjxwYXRoIGQ9Im0xNzMgMzYxIDMgOCA5IDMtOSAzLTMgOC0zLTgtOS0zIDktM1oiIGZpbGw9IiMwODdlNzkiLz48cGF0aCBkPSJNMTY5IDM5Nmg1MW0tNTEgMTBoMzltLTM5IDEwaDQ1IiBzdHJva2U9IiNiOGM5YWEiIHN0cm9rZS13aWR0aD0iMyIvPjwvZz48ZyB0cmFuc2Zvcm09InJvdGF0ZSgxMSA1ODUgNDAwKSI+PHJlY3QgeD0iNTUxIiB5PSIzNDIiIHdpZHRoPSI2NyIgaGVpZ2h0PSI5MSIgcng9IjYiIGZpbGw9IiNmNmYzZTMiLz48Y2lyY2xlIGN4PSI1ODUiIGN5PSIzNzEiIHI9IjE0IiBmaWxsPSIjZDhmMzZhIi8+PHBhdGggZD0iTTU2NiAzOTloNDBtLTQwIDExaDMxIiBzdHJva2U9IiNiMmM0YTciIHN0cm9rZS13aWR0aD0iMyIvPjwvZz48ZyBmaWxsPSIjNDQ2YzU5Ij48cGF0aCBkPSJtMTI0IDEzNiAyMiAxLTEzIDEzIDkgMTktMTktOC0xNSAxNSAyLTIzLTE4LTExIDIzLTMgNC0yMFoiLz48cGF0aCBkPSJtNjcwIDMzNiAxMyA2IDEzLTYtMSAxNSAxMCAxMS0xNyAxLTggMTMtNi0xNS0xNi00IDEyLTlaIi8+PC9nPjxwYXRoIGQ9Ik0wIDQycTQwMCAxMjggODAwIDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzZmOGY3MyIgc3Ryb2tlLXdpZHRoPSIzIi8+PGc+PHBhdGggZD0ibTEwNiA3MyAzMSA3LTIxIDM4WiIgZmlsbD0iI2ZmODA2NiIvPjxwYXRoIGQ9Im0yMjIgOTQgMzIgNC0yMCAzOVoiIGZpbGw9IiNkOGYzNmEiLz48cGF0aCBkPSJtMzM5IDEwNCAzMiAxLTE3IDM5WiIgZmlsbD0iI2YyYmI3NiIvPjxwYXRoIGQ9Im00NTYgMTAzIDMyLTEtMTQgMzlaIiBmaWxsPSIjZmY4MDY2Ii8+PHBhdGggZD0ibTU3MiA5MiAzMi01LTkgNDBaIiBmaWxsPSIjZDhmMzZhIi8+PHBhdGggZD0ibTY4NyA3MCAzMS03LTcgNDBaIiBmaWxsPSIjZjJiYjc2Ii8+PC9nPjxwYXRoIGQ9Im04OCA1MzMgMTAtMjMgMTEgMjMgMjUgMy0yMCAxNyA1IDI1LTIxLTEzLTIxIDEzIDUtMjUtMjAtMTdaIiBmaWxsPSIjYmVjZDkzIiBvcGFjaXR5PSIuNjUiLz48cGF0aCBkPSJtNzAwIDUwMCA3LTE2IDcgMTYgMTggMi0xNCAxMiA0IDE4LTE1LTktMTUgOSA0LTE4LTE0LTEyWiIgZmlsbD0iI2JlY2Q5MyIgb3BhY2l0eT0iLjY1Ii8+PC9zdmc+Cg==&quot; width=&quot;800&quot; height=&quot;600&quot; alt=&quot;Dyniowa latarnia w oknie domu przygotowanego na bal kostiumowy&quot;&gt;&lt;div class=&quot;art-note&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;✳&lt;/span&gt;&lt;div&gt;&lt;strong&gt;Nie zgaduj. Połącz fakty.&lt;/strong&gt;&lt;span&gt;Każda sprawa ma jedno rozwiązanie.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;/section&gt;
+    &lt;section class=&quot;play&quot; id=&quot;play&quot; hidden aria-labelledby=&quot;case-title&quot;&gt;
+      &lt;div class=&quot;case-top&quot;&gt;&lt;a href=&quot;#cover&quot; id=&quot;back&quot; class=&quot;back&quot;&gt;← Początek&lt;/a&gt;&lt;div class=&quot;case-progress&quot; id=&quot;case-progress&quot; aria-label=&quot;Postęp spraw&quot;&gt;&lt;/div&gt;&lt;span class=&quot;timer&quot; id=&quot;timer&quot; aria-label=&quot;Czas gry&quot;&gt;0:00&lt;/span&gt;&lt;/div&gt;
+      &lt;div class=&quot;case-heading&quot;&gt;&lt;div&gt;&lt;p class=&quot;eyebrow&quot; id=&quot;case-location&quot;&gt;&lt;/p&gt;&lt;h1 id=&quot;case-title&quot; tabindex=&quot;-1&quot;&gt;&lt;/h1&gt;&lt;/div&gt;&lt;span class=&quot;case-number&quot; id=&quot;case-number&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+      &lt;p class=&quot;story&quot; id=&quot;story&quot;&gt;&lt;/p&gt;&lt;p class=&quot;rule&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;!&lt;/span&gt; Dokładnie jedna osoba kłamie. Sprawca i kłamca mogą być tą samą osobą.&lt;/p&gt;
+      &lt;div class=&quot;witnesses&quot; id=&quot;witnesses&quot; aria-label=&quot;Zeznania świadków&quot;&gt;&lt;/div&gt;
+      &lt;section class=&quot;deduction&quot; aria-labelledby=&quot;deduction-title&quot;&gt;&lt;div class=&quot;deduction-heading&quot;&gt;&lt;div&gt;&lt;p class=&quot;eyebrow&quot;&gt;Twój ruch, detektywie&lt;/p&gt;&lt;h2 id=&quot;deduction-title&quot;&gt;Połącz zeznania.&lt;/h2&gt;&lt;/div&gt;&lt;span aria-hidden=&quot;true&quot;&gt;✦&lt;/span&gt;&lt;/div&gt;&lt;fieldset&gt;&lt;legend id=&quot;culprit-question&quot;&gt;&lt;/legend&gt;&lt;div class=&quot;choices&quot; id=&quot;culprit-choices&quot;&gt;&lt;/div&gt;&lt;/fieldset&gt;&lt;fieldset&gt;&lt;legend&gt;Kto kłamie?&lt;/legend&gt;&lt;div class=&quot;choices&quot; id=&quot;liar-choices&quot;&gt;&lt;/div&gt;&lt;/fieldset&gt;&lt;button class=&quot;primary check&quot; id=&quot;check&quot; type=&quot;button&quot; disabled&gt;Sprawdź moje wskazanie &lt;span aria-hidden=&quot;true&quot;&gt;→&lt;/span&gt;&lt;/button&gt;&lt;p class=&quot;status&quot; id=&quot;status&quot; role=&quot;status&quot; aria-live=&quot;polite&quot;&gt;Wybierz sprawcę i kłamcę.&lt;/p&gt;&lt;/section&gt;
+      &lt;div class=&quot;help&quot;&gt;&lt;button id=&quot;hint&quot; type=&quot;button&quot;&gt;Podpowiedź &lt;span id=&quot;hint-count&quot;&gt;0/3&lt;/span&gt;&lt;/button&gt;&lt;button id=&quot;reveal&quot; type=&quot;button&quot;&gt;Pokaż rozwiązanie&lt;/button&gt;&lt;/div&gt;&lt;p class=&quot;hint-text&quot; id=&quot;hint-text&quot; hidden role=&quot;status&quot; aria-live=&quot;polite&quot;&gt;&lt;/p&gt;
+      &lt;div class=&quot;reveal-confirm&quot; id=&quot;reveal-confirm&quot; hidden&gt;&lt;p&gt;Odsłonić rozwiązanie tej sprawy? Możesz też wrócić do dedukcji.&lt;/p&gt;&lt;button id=&quot;confirm-reveal&quot; type=&quot;button&quot;&gt;Tak, pokaż rozwiązanie&lt;/button&gt;&lt;button id=&quot;cancel-reveal&quot; type=&quot;button&quot;&gt;Jeszcze spróbuję&lt;/button&gt;&lt;/div&gt;
+      &lt;section class=&quot;result&quot; id=&quot;result&quot; hidden tabindex=&quot;-1&quot; aria-labelledby=&quot;result-title&quot;&gt;&lt;p class=&quot;eyebrow&quot; id=&quot;result-kicker&quot;&gt;&lt;/p&gt;&lt;h2 id=&quot;result-title&quot;&gt;&lt;/h2&gt;&lt;p id=&quot;result-summary&quot;&gt;&lt;/p&gt;&lt;div class=&quot;result-facts&quot; id=&quot;result-facts&quot;&gt;&lt;/div&gt;&lt;details id=&quot;explanation&quot;&gt;&lt;summary&gt;Dlaczego to jedyne rozwiązanie?&lt;/summary&gt;&lt;p id=&quot;explanation-text&quot;&gt;&lt;/p&gt;&lt;ul id=&quot;truths&quot;&gt;&lt;/ul&gt;&lt;/details&gt;&lt;div class=&quot;result-actions&quot;&gt;&lt;button class=&quot;primary&quot; id=&quot;share&quot; type=&quot;button&quot;&gt;Udostępnij wynik →&lt;/button&gt;&lt;button class=&quot;secondary&quot; id=&quot;next&quot; type=&quot;button&quot;&gt;Następna sprawa →&lt;/button&gt;&lt;/div&gt;&lt;p id=&quot;share-status&quot; role=&quot;status&quot;&gt;&lt;/p&gt;&lt;textarea id=&quot;share-copy&quot; aria-label=&quot;Wynik do skopiowania&quot; rows=&quot;5&quot; readonly hidden&gt;&lt;/textarea&gt;&lt;/section&gt;
+      &lt;div class=&quot;play-footer&quot;&gt;&lt;span id=&quot;local-progress&quot;&gt;Postęp zapisuje się w tej przeglądarce.&lt;/span&gt;&lt;button id=&quot;restart&quot; type=&quot;button&quot;&gt;Zacznij tę sprawę od nowa&lt;/button&gt;&lt;/div&gt;
+    &lt;/section&gt;
+    &lt;aside class=&quot;more-games&quot;&gt;&lt;div&gt;&lt;strong&gt;Masz ochotę na więcej tajemnic?&lt;/strong&gt;&lt;p&gt;Codzienne sprawy czekają w Alibi w Mig.&lt;/p&gt;&lt;/div&gt;&lt;a href=&quot;https://grywmig.pl/alibi-w-mig/&quot; target=&quot;_top&quot; id=&quot;next-game&quot;&gt;Poznaj Alibi w Mig &lt;span aria-hidden=&quot;true&quot;&gt;→&lt;/span&gt;&lt;/a&gt;&lt;/aside&gt;
+  &lt;/main&gt;&lt;footer class=&quot;game-footer&quot;&gt;&lt;span&gt;Gry w Mig · Jesienna edycja specjalna&lt;/span&gt;&lt;span&gt;Zagadki bez straszenia.&lt;/span&gt;&lt;/footer&gt;
+&lt;/div&gt;
+&lt;script type=&quot;module&quot;&gt;const CASES = [
+  {
+    id: 'latarnia', title: 'Zaginiona latarnia', prop: 'latarnię', location: 'Dom na Wzgórzu',
+    story: 'Bal kostiumowy miał zacząć się za chwilę. Z przedsionka zniknęła dyniowa latarnia. Były tam tylko trzy osoby. Jedna ją wyniosła. Dokładnie jedna osoba kłamie.',
+    question: 'Kto wyniósł latarnię?',
+    people: [
+      { id: 'ada', name: 'Ada', costume: 'Czarownica', icon: 'hat', quote: 'Leon wyniósł latarnię.', claim: { op: 'is', who: 'leon' } },
+      { id: 'leon', name: 'Leon', costume: 'Wampir', icon: 'bat', quote: 'To Mila wyniosła latarnię.', claim: { op: 'is', who: 'mila' } },
+      { id: 'mila', name: 'Mila', costume: 'Duch', icon: 'ghost', quote: 'Leon kłamie.', claim: { op: 'false', person: 'leon' } },
+    ],
+    hints: ['Zestaw zeznania Leona i Mili. Czy mogą jednocześnie mówić prawdę?', 'Zdanie Mili zaprzecza zdaniu Leona. Dokładnie jedno z tej dwójki kłamie.', 'Skoro kłamca jest w tej dwójce, Ada mówi prawdę. Sprawdź, kogo wskazała.'],
+    explanation: 'Leon wskazał Milę, a Mila zaprzeczyła jego zeznaniu. Jedno z nich musi kłamać. Ada mówi więc prawdę: latarnię wyniósł Leon. Leon skłamał, a Mila powiedziała prawdę.',
+  },
+  {
+    id: 'klucz', title: 'Klucz do oranżerii', prop: 'klucz', location: 'Stara Oranżeria',
+    story: 'W oranżerii czeka niespodzianka dla gości, ale ktoś zabrał jedyny klucz. Mogła to zrobić tylko Ada, Leon albo Mila. Klucz zabrała jedna osoba. Dokładnie jedno zeznanie jest fałszywe.',
+    question: 'Kto zabrał klucz?',
+    people: [
+      { id: 'ada', name: 'Ada', costume: 'Czarownica', icon: 'hat', quote: 'Klucz zabrał Leon.', claim: { op: 'is', who: 'leon' } },
+      { id: 'leon', name: 'Leon', costume: 'Wampir', icon: 'bat', quote: 'Ada nie zabrała klucza.', claim: { op: 'not', who: 'ada' } },
+      { id: 'mila', name: 'Mila', costume: 'Duch', icon: 'ghost', quote: 'Klucz zabrał Leon albo ja.', claim: { op: 'any', who: ['leon', 'mila'] } },
+    ],
+    hints: ['Sprawdź osobno każdą z trzech możliwości. Policz fałszywe zeznania.', 'Gdyby klucz zabrała Ada, wszyscy troje skłamaliby. Gdyby zabrał go Leon, wszyscy mówiliby prawdę.', 'Pozostaje Mila. Przy tej możliwości tylko zeznanie Ady jest fałszywe.'],
+    explanation: 'Przy Adzie otrzymalibyśmy trzy kłamstwa, a przy Leonie ani jednego. Tylko Mila pasuje do warunku dokładnie jednego kłamcy: Ada wskazała niewłaściwą osobę, Leon i Mila powiedzieli prawdę.',
+  },
+  {
+    id: 'cukierki', title: 'Ostatnia miska cukierków', prop: 'cukierki', location: 'Sala Balowa',
+    story: 'Pora na finał balu! Ze stołu zniknęła ostatnia miska cukierków. W sali byli Ada, Leon, Mila i Olek. Jedna z tych osób schowała miskę. Dokładnie jedna osoba kłamie.',
+    question: 'Kto schował cukierki?',
+    people: [
+      { id: 'ada', name: 'Ada', costume: 'Czarownica', icon: 'hat', quote: 'Cukierki schował Olek.', claim: { op: 'is', who: 'olek' } },
+      { id: 'leon', name: 'Leon', costume: 'Wampir', icon: 'bat', quote: 'Mila kłamie.', claim: { op: 'false', person: 'mila' } },
+      { id: 'mila', name: 'Mila', costume: 'Duch', icon: 'ghost', quote: 'Cukierki schował Leon albo Olek.', claim: { op: 'any', who: ['leon', 'olek'] } },
+      { id: 'olek', name: 'Olek', costume: 'Kot', icon: 'cat', quote: 'Ada nie schowała cukierków.', claim: { op: 'not', who: 'ada' } },
+    ],
+    hints: ['Leon zaprzecza słowom Mili. Co wynika z tego przy tylko jednym kłamcy?', 'Jedno z tej dwójki kłamie. Ada i Olek muszą więc mówić prawdę.', 'Ada wskazała Olka. Przy tej możliwości Mila mówi prawdę, więc kłamie Leon.'],
+    explanation: 'Zdania Leona i Mili wzajemnie sobie zaprzeczają. Kłamcą jest zatem jedno z nich, a Ada i Olek mówią prawdę. Ada wskazała Olka. Zeznanie Mili jest wtedy prawdziwe, a Leon kłamie.',
+  },
+];
+
+function truthTable(puzzle, culprit) {
+  const evaluate = (claim, seen = new Set()) =&gt; {
+    if (claim.op === 'is') return culprit === claim.who;
+    if (claim.op === 'not') return culprit !== claim.who;
+    if (claim.op === 'any') return claim.who.includes(culprit);
+    if (claim.op === 'false') {
+      if (seen.has(claim.person)) throw new Error('Circular statement');
+      const person = puzzle.people.find(p =&gt; p.id === claim.person);
+      if (!person) throw new Error('Unknown witness');
+      return !evaluate(person.claim, new Set([...seen, claim.person]));
+    }
+    throw new Error('Unknown statement');
+  };
+  return puzzle.people.map(person =&gt; ({ ...person, truth: evaluate(person.claim, new Set([person.id])) }));
+}
+function solutions(puzzle) {
+  return puzzle.people.flatMap(person =&gt; {
+    const liars = truthTable(puzzle, person.id).filter(p =&gt; !p.truth);
+    return liars.length === 1 ? [{ culprit: person.id, liar: liars[0].id }] : [];
+  });
+}
+function verdict(puzzle, culprit, liar) {
+  return solutions(puzzle).some(s =&gt; s.culprit === culprit &amp;&amp; s.liar === liar);
+}
+function formatTime(milliseconds) {
+  const seconds = Math.floor(Math.max(0, milliseconds) / 1000);
+  return `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, '0')}`;
+}
+
+const $ = id =&gt; document.getElementById(id);
+const KEY = 'gwm-halloween-alibi-v1';
+const defaults = () =&gt; ({ index: 0, phase: 'cover', culprit: '', liar: '', elapsed: 0, hints: 0, attempts: 0, solved: [], completedEvent: false });
+let state = defaults();
+try {
+  const saved = JSON.parse(localStorage.getItem(KEY));
+  if (saved &amp;&amp; Number.isInteger(saved.index) &amp;&amp; saved.index &gt;= 0 &amp;&amp; saved.index &lt; CASES.length &amp;&amp; ['cover','play','won','revealed'].includes(saved.phase)) {
+    const ids = CASES[saved.index].people.map(p =&gt; p.id);
+    state = { ...defaults(), index: saved.index, phase: saved.phase, culprit: ids.includes(saved.culprit) ? saved.culprit : '', liar: ids.includes(saved.liar) ? saved.liar : '', elapsed: Number.isFinite(saved.elapsed) ? Math.max(0, saved.elapsed) : 0, hints: Math.min(3, Math.max(0, Number(saved.hints) || 0)), attempts: Math.max(0, Number(saved.attempts) || 0), solved: Array.isArray(saved.solved) ? saved.solved.filter(id =&gt; CASES.some(c =&gt; c.id === id)) : [], completedEvent: !!saved.completedEvent };
+  }
+} catch {}
+const persist = () =&gt; { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch { $('local-progress').textContent = 'Zapis w tej przeglądarce jest niedostępny.'; } };
+const emit = action =&gt; {
+  const detail = { type: 'grywmig:halloween:event', action, game_id: 'halloween_alibi', case_id: CASES[state.index].id, hints: state.hints, attempts: state.attempts, elapsed_seconds: Math.floor(state.elapsed / 1000) };
+  window.dispatchEvent(new CustomEvent('gwm:game_event', { detail }));
+  if (parent !== window) parent.postMessage(detail, parent.location.origin);
+};
+const icon = name =&gt; {
+  const shapes = { hat: '&lt;path d=&quot;m8 28 8-23 11 23Z&quot; fill=&quot;#087e79&quot;/&gt;&lt;path d=&quot;m5 29 25-2 3 5H3Z&quot; fill=&quot;#172b3a&quot;/&gt;&lt;path d=&quot;m12 20 10-1&quot; stroke=&quot;#d8f36a&quot; stroke-width=&quot;3&quot;/&gt;', bat: '&lt;path d=&quot;M3 10c8 0 9 7 15 7s7-7 15-7l-1 15-8-3-6 8-6-8-8 3Z&quot; fill=&quot;#36554e&quot;/&gt;&lt;path d=&quot;m14 13 1-7 3 4 3-4 1 7&quot; fill=&quot;#36554e&quot;/&gt;&lt;circle cx=&quot;16&quot; cy=&quot;17&quot; r=&quot;1&quot; fill=&quot;#d8f36a&quot;/&gt;&lt;circle cx=&quot;20&quot; cy=&quot;17&quot; r=&quot;1&quot; fill=&quot;#d8f36a&quot;/&gt;', ghost: '&lt;path d=&quot;M7 31V16a11 11 0 0 1 22 0v15l-5-3-6 4-6-4Z&quot; fill=&quot;#dbe9e8&quot; stroke=&quot;#719891&quot;/&gt;&lt;ellipse cx=&quot;14&quot; cy=&quot;17&quot; rx=&quot;2&quot; ry=&quot;3&quot; fill=&quot;#172b3a&quot;/&gt;&lt;ellipse cx=&quot;22&quot; cy=&quot;17&quot; rx=&quot;2&quot; ry=&quot;3&quot; fill=&quot;#172b3a&quot;/&gt;&lt;path d=&quot;M15 24q3 3 6 0&quot; fill=&quot;none&quot; stroke=&quot;#172b3a&quot; stroke-width=&quot;1.5&quot;/&gt;', cat: '&lt;path d=&quot;m7 18 1-12 9 7h3l9-7 1 12c4 16-26 16-23 0Z&quot; fill=&quot;#36554e&quot;/&gt;&lt;path d=&quot;m11 20 4-1m7 0 4 1&quot; stroke=&quot;#d8f36a&quot; stroke-width=&quot;2&quot;/&gt;&lt;path d=&quot;m16 25 2 2 2-2&quot; fill=&quot;#ff8066&quot;/&gt;' };
+  return `&lt;svg viewBox=&quot;0 0 36 36&quot; aria-hidden=&quot;true&quot;&gt;${shapes[name] || shapes.ghost}&lt;/svg&gt;`;
+};
+function renderChoices(container, key, puzzle) {
+  container.replaceChildren();
+  for (const person of puzzle.people) {
+    const button = document.createElement('button'); button.type = 'button'; button.className = 'choice'; button.textContent = person.name; button.dataset.person = person.id;
+    button.setAttribute('aria-pressed', String(state[key] === person.id)); button.disabled = ['won','revealed'].includes(state.phase);
+    button.addEventListener('click', () =&gt; { state[key] = person.id; renderSelection(); persist(); }); container.append(button);
+  }
+}
+function renderSelection() {
+  for (const [id, key] of [['culprit-choices','culprit'], ['liar-choices','liar']]) {
+    $(id).querySelectorAll('button').forEach(button =&gt; button.setAttribute('aria-pressed', String(button.dataset.person === state[key])));
+  }
+  $('check').disabled = !state.culprit || !state.liar || state.phase !== 'play';
+  if (state.phase === 'play') { $('status').className = 'status'; $('status').textContent = state.culprit &amp;&amp; state.liar ? 'Gotowe? Sprawdź swoją dedukcję.' : 'Wybierz sprawcę i kłamcę.'; }
+}
+function render() {
+  const puzzle = CASES[state.index];
+  $('cover').hidden = state.phase !== 'cover'; $('play').hidden = state.phase === 'cover';
+  $('start').innerHTML = `Zbadaj ${state.index === 0 ? 'pierwszą' : 'kolejną'} sprawę &lt;span aria-hidden=&quot;true&quot;&gt;→&lt;/span&gt;`;
+  $('case-title').textContent = puzzle.title; $('case-location').textContent = puzzle.location; $('case-number').textContent = `Sprawa ${state.index + 1} z ${CASES.length}`; $('story').textContent = puzzle.story; $('culprit-question').textContent = puzzle.question;
+  $('case-progress').innerHTML = CASES.map((c,i) =&gt; `&lt;span class=&quot;${i === state.index ? 'active' : state.solved.includes(c.id) ? 'solved' : ''}&quot; aria-label=&quot;Sprawa ${i + 1}${state.solved.includes(c.id) ? ', rozwiązana' : ''}&quot;&gt;&lt;/span&gt;`).join('');
+  $('witnesses').className = `witnesses${puzzle.people.length === 4 ? ' four' : ''}`;
+  $('witnesses').innerHTML = puzzle.people.map(p =&gt; `&lt;article class=&quot;witness&quot;&gt;&lt;div class=&quot;witness-identity&quot;&gt;&lt;span class=&quot;avatar&quot;&gt;${icon(p.icon)}&lt;/span&gt;&lt;div&gt;&lt;strong&gt;${p.name}&lt;/strong&gt;&lt;small&gt;${p.costume}&lt;/small&gt;&lt;/div&gt;&lt;/div&gt;&lt;blockquote&gt;„${p.quote}”&lt;/blockquote&gt;&lt;/article&gt;`).join('');
+  renderChoices($('culprit-choices'), 'culprit', puzzle); renderChoices($('liar-choices'), 'liar', puzzle); renderSelection();
+  $('timer').textContent = formatTime(state.elapsed); $('hint-count').textContent = `${state.hints}/3`; $('hint-text').hidden = !state.hints; $('hint-text').textContent = puzzle.hints[state.hints - 1] || '';
+  $('hint').disabled = state.hints &gt;= 3 || state.phase !== 'play'; $('reveal').disabled = state.phase !== 'play'; $('reveal-confirm').hidden = true;
+  $('result').hidden = !['won','revealed'].includes(state.phase); $('share').hidden = state.phase !== 'won'; $('share-copy').hidden = true; $('share-status').textContent = ''; $('explanation').open = state.phase === 'revealed';
+  if (!$( 'result').hidden) {
+    const solution = solutions(puzzle)[0], culprit = puzzle.people.find(p =&gt; p.id === solution.culprit), liar = puzzle.people.find(p =&gt; p.id === solution.liar);
+    $('result-kicker').textContent = state.phase === 'won' ? 'Dobra dedukcja!' : 'Rozwiązanie odsłonięte'; $('result-title').textContent = state.phase === 'won' ? 'Sprawa rozwiązana.' : 'Oto co się wydarzyło.';
+    $('result-summary').textContent = `${culprit.name} to sprawca. ${liar.name} to jedyna osoba, która skłamała.`;
+    $('result-facts').innerHTML = `&lt;span&gt;Czas: ${formatTime(state.elapsed)}&lt;/span&gt;&lt;span&gt;Podpowiedzi: ${state.hints}/3&lt;/span&gt;&lt;span&gt;Sprawdzenia: ${state.attempts}&lt;/span&gt;`;
+    $('explanation-text').textContent = puzzle.explanation;
+    $('truths').innerHTML = truthTable(puzzle, solution.culprit).map(p =&gt; `&lt;li&gt;&lt;span class=&quot;truth-badge${p.truth ? '' : ' lie'}&quot;&gt;${p.truth ? 'PRAWDA' : 'KŁAMSTWO'}&lt;/span&gt; ${p.name}: „${p.quote}”&lt;/li&gt;`).join('');
+    $('next').textContent = state.index === CASES.length - 1 ? 'Zagraj ponownie →' : 'Następna sprawa →';
+  }
+}
+function begin(index = state.index) {
+  const solved = state.solved;
+  state = { ...defaults(), index, phase: 'play', solved };
+  render(); persist(); emit('game_start'); $('case-title').focus({ preventScroll: true }); $('play').scrollIntoView({ behavior: 'instant', block: 'start' });
+}
+$('start').addEventListener('click', () =&gt; begin());
+$('back').addEventListener('click', event =&gt; { event.preventDefault(); state.phase = 'cover'; render(); persist(); $('cover').scrollIntoView({ behavior: 'instant' }); $('start').focus({ preventScroll: true }); });
+$('check').addEventListener('click', () =&gt; {
+  if (state.phase !== 'play' || !state.culprit || !state.liar) return;
+  state.attempts++;
+  if (!verdict(CASES[state.index], state.culprit, state.liar)) { $('status').className = 'status error'; $('status').textContent = 'Te wskazania nie pasują do wszystkich zeznań i zasady jednego kłamcy. Sprawdź jeszcze raz.'; persist(); return; }
+  state.phase = 'won'; if (!state.solved.includes(CASES[state.index].id)) state.solved.push(CASES[state.index].id);
+  if (!state.completedEvent) { emit('game_complete'); state.completedEvent = true; } render(); persist(); $('result').focus({ preventScroll: true }); $('result').scrollIntoView({ behavior: 'instant', block: 'center' });
+});
+$('hint').addEventListener('click', () =&gt; { if (state.phase !== 'play' || state.hints &gt;= 3) return; state.hints++; emit('hint_used'); render(); persist(); $('hint-text').scrollIntoView({ behavior: 'instant', block: 'nearest' }); });
+$('reveal').addEventListener('click', () =&gt; { if (state.phase === 'play') { $('reveal-confirm').hidden = false; $('confirm-reveal').focus(); } });
+$('cancel-reveal').addEventListener('click', () =&gt; { $('reveal-confirm').hidden = true; $('reveal').focus(); });
+$('confirm-reveal').addEventListener('click', () =&gt; { if (state.phase !== 'play') return; state.phase = 'revealed'; emit('solution_revealed'); render(); persist(); $('result').focus({ preventScroll: true }); $('result').scrollIntoView({ behavior: 'instant', block: 'center' }); });
+$('next').addEventListener('click', () =&gt; begin((state.index + 1) % CASES.length));
+$('restart').addEventListener('click', () =&gt; begin());
+$('next-game').addEventListener('click', () =&gt; emit('next_game_click'));
+$('share').addEventListener('click', async () =&gt; {
+  if (state.phase !== 'won') return;
+  const text = `🎃 Halloweenowe Alibi\nSprawa ${state.index + 1}/3 rozwiązana w ${formatTime(state.elapsed)}.\n${state.hints ? `Podpowiedzi: ${state.hints}/3.` : 'Bez podpowiedzi!'} Twoja kolej.\nhttps://grywmig.pl/halloweenowe-alibi/`;
+  emit('share_click');
+  try { if (navigator.share) { await navigator.share({ title: 'Halloweenowe Alibi', text }); $('share-status').textContent = 'Wynik przekazany do udostępnienia.'; } else { await navigator.clipboard.writeText(text); $('share-status').textContent = 'Wynik skopiowany. Wklej go znajomym!'; } }
+  catch (error) { if (error?.name === 'AbortError') return; $('share-copy').value = text; $('share-copy').hidden = false; $('share-copy').focus(); $('share-copy').select(); $('share-status').textContent = 'Skopiuj zaznaczony wynik.'; }
+});
+let lastTick = performance.now(), ticks = 0;
+setInterval(() =&gt; { const now = performance.now(); if (state.phase === 'play' &amp;&amp; !document.hidden) { state.elapsed += Math.min(2000, now - lastTick); $('timer').textContent = formatTime(state.elapsed); if (++ticks % 20 === 0) persist(); } lastTick = now; }, 250);
+addEventListener('pagehide', persist); document.addEventListener('visibilitychange', () =&gt; { lastTick = performance.now(); persist(); });
+render();
+if (parent !== window) {
+  const shell = document.querySelector('.game-shell');
+  new ResizeObserver(() =&gt; parent.postMessage({ type: 'grywmig:halloween:resize', height: Math.ceil(shell.getBoundingClientRect().height) }, parent.location.origin)).observe(shell);
+}
+&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;
+"></iframe></div>
+<script>(() => {
+  const events = new Set(['game_start','game_complete','hint_used','solution_revealed','share_click','next_game_click']);
+  document.querySelectorAll('[data-gwm-halloween-embed]').forEach(wrapper => {
+    const frame = wrapper.querySelector('iframe');
+    if (!frame) return;
+    window.addEventListener('message', event => {
+      if (event.origin !== location.origin || event.source !== frame.contentWindow || !event.data || typeof event.data !== 'object') return;
+      const data = event.data;
+      if (data.type === 'grywmig:halloween:resize' && Number.isFinite(data.height)) {
+        frame.style.height = Math.max(320, Math.min(5000, data.height + 8)) + 'px';
+      }
+      if (data.type !== 'grywmig:halloween:event' || !events.has(data.action)) return;
+      const detail = { game_id: 'halloween_alibi', game_name: 'Halloweenowe Alibi', case_id: String(data.case_id || '').slice(0, 40), hints_used: Math.max(0, Math.min(3, Number(data.hints) || 0)), attempts: Math.max(0, Number(data.attempts) || 0), elapsed_seconds: Math.max(0, Number(data.elapsed_seconds) || 0) };
+      window.dispatchEvent(new CustomEvent('gwm:halloween_event', { detail: { event: data.action, ...detail } }));
+      // Reuse the site's existing Google tag and its consent configuration; never load another tag.
+      if (typeof window.gtag === 'function') window.gtag('event', data.action, detail);
+    });
+  });
+})();
+</script>
+<!-- /wp:html -->

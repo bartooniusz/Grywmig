@@ -1,0 +1,14 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {resolve,join} from 'node:path';
+const root=resolve(import.meta.dirname,'..'),source=join(root,'plugins/grywmig-halloween-alibi');
+const read=name=>readFile(join(source,name),'utf8');
+const escape=s=>s.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
+const data=s=>'data:image/svg+xml;base64,'+Buffer.from(s).toString('base64');
+const model=(await read('game/model.mjs')).replaceAll('export ','');
+const app=(await read('game/app.mjs')).replace(/^import .*?;\n/,'').replaceAll('parent.postMessage(detail, location.origin)','parent.postMessage(detail, parent.location.origin)').replaceAll('}, location.origin)', '}, parent.location.origin)');
+let html=await read('game/index.html');
+html=html.replace('href="icon.svg"','href="'+data(await read('game/icon.svg'))+'"').replace('<link rel="stylesheet" href="style.css">','<style>'+await read('game/style.css')+'</style>').replace('<script type="module" src="app.mjs"></script>','').replace('src="scene.svg"','src="'+data(await read('game/scene.svg'))+'"').replace('</body>','<script type="module">'+model+'\n'+app+'</script></body>');
+const embed=await read('embed.js');
+const page='<!-- wp:paragraph -->\n<p>Trzy krótkie zagadki na Halloween. Przeczytaj zeznania, połącz fakty i znajdź jedynego kłamcę. Za darmo, po polsku i bez logowania.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:html -->\n<div data-gwm-halloween-embed><iframe title="Halloweenowe Alibi — trzy zagadki logiczne" style="display:block;width:100%;height:1100px;border:0;border-radius:20px;background:#fbf8f0" allow="clipboard-write; web-share" srcdoc="'+escape(html)+'"></iframe></div>\n<script>'+embed+'</script>\n<!-- /wp:html -->\n';
+await writeFile(join(root,'dist/halloweenowe-alibi/wordpress-page.html.txt'),page);
+console.log('Built self-contained WordPress page content: '+Buffer.byteLength(page)+' bytes.');
