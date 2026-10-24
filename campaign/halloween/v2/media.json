@@ -3,33 +3,45 @@
     "file": "01-jeden-klamie",
     "media_url": "https://static.metricool.com/planner/202610/6844485-file-561017190391473320.mp4",
     "uuid": "4391118895835661011",
-    "post_id": 404579017,
-    "draft": true,
+    "post_id": 404809464,
+    "draft": false,
     "generation_id": "ukLcFLvE6XuVQ1fgtwzv",
     "duration_seconds": 18.030667,
     "width": 1080,
-    "height": 1920
+    "height": 1920,
+    "publicationDate": {
+      "dateTime": "2026-10-24T10:00:00",
+      "timezone": "Europe/Warsaw"
+    }
   },
   {
     "file": "02-zatrzymaj-film",
     "media_url": "https://static.metricool.com/planner/202610/6844485-file-13104012275311703897.mp4",
     "uuid": "-1900683504121003163",
-    "post_id": 404579119,
-    "draft": true,
+    "post_id": 404809493,
+    "draft": false,
     "generation_id": "OUkVjGVN8w7ntOighEna",
     "duration_seconds": 18.030667,
     "width": 1080,
-    "height": 1920
+    "height": 1920,
+    "publicationDate": {
+      "dateTime": "2026-10-24T18:00:00",
+      "timezone": "Europe/Warsaw"
+    }
   },
   {
     "file": "03-bez-podpowiedzi",
     "media_url": "https://static.metricool.com/planner/202610/6844485-file-10998126052544040217.mp4",
     "uuid": "-3462615134062294139",
-    "post_id": 404579220,
-    "draft": true,
+    "post_id": 404809510,
+    "draft": false,
     "generation_id": "GaaAYlzeFC2hWKQEkiDK",
     "duration_seconds": 18.030667,
     "width": 1080,
-    "height": 1920
+    "height": 1920,
+    "publicationDate": {
+      "dateTime": "2026-10-25T10:00:00",
+      "timezone": "Europe/Warsaw"
+    }
   }
 ]

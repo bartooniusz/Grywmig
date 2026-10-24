@@ -1,14 +1,18 @@
-HALLOWEENOWE ALIBI — URUCHOMIENIE
+HALLOWEENOWE ALIBI — KAMPANIA URUCHOMIONA
 
-1. WORDPRESS
-Wgraj grywmig-halloween-alibi-1.0.0.zip przez Wtyczki → Dodaj nową.
-Po aktywacji powstaje publiczna strona /halloweenowe-alibi/, jeżeli adres jest wolny.
-Istniejąca strona nie jest zmieniana: w takim przypadku dodaj shortcode
-[grywmig_halloween_alibi] do wybranej strony ręcznie.
+1. GRA NA GRYWMIG.PL
+Publiczny adres: https://grywmig.pl/halloweenowe-alibi/
+Strona WordPress: ID 71, status opublikowana, widoczność publiczna.
+Gra działa jako samodzielna treść strony z odizolowaną ramką srcdoc.
+Sprawdzono uruchomienie i poprawne rozwiązanie pierwszej sprawy na produkcji.
+Kod opublikowanej gry jest zgodny z przetestowanym plikiem źródłowym.
+Nie trzeba ponownie instalować wtyczki, aby zagrać.
 
-Opcjonalnie zaktualizuj nakładkę katalogu do grywmig-ulepszenia-1.0.3.zip.
-Pojawi się karta Halloweenowego Alibi. Karta pokazuje się tylko po publikacji
-strony gry. Stare Alibi oraz pozostałe gry pozostają osobnymi grami.
+Opcjonalna aktualizacja katalogu grywmig-ulepszenia-1.0.3.zip dodaje kartę
+nowej gry do strony głównej. Logo, menu oraz istniejące gry pozostają bez zmian.
+Paczka gry grywmig-halloween-alibi-1.0.0.zip jest alternatywną formą instalacji;
+nie zastępuje automatycznie istniejącej treści strony. Kopia treści strony
+znajduje się w WordPress/halloweenowe-alibi-strona.html.txt w paczce materiałów.
 
 2. POMIAR
 Przejdź na stronę gry z jednym z linków UTM w opisy-postow.txt.
@@ -30,18 +34,20 @@ w Metricool potwierdził „Gry w Mig”. Publiczny profil ma adres podany wyże
 identyfikator zwracany przez połączenie API to 1308632369008099.
 Nie używaj do tej kampanii innych podłączonych marek.
 
-4. SZKICE W METRICOOL I TEST 48 GODZIN
-W marce 7616490 zapisano trzy rolki z wgranymi filmami i jeden post z linkiem.
-Wszystkie cztery wpisy mają potwierdzony status draft=true. Nie opublikują
-się automatycznie. Nie wydano pieniędzy na reklamę.
+4. AKTYWNY HARMONOGRAM W METRICOOL
+Potwierdzono draft=false oraz autoPublish=true dla trzech rolek i posta.
+Sieć: wyłącznie Facebook, marka Gry w Mig 7616490.
 
-Proponowane terminy szkiców (Europe/Warsaw), według wskazań Metricool:
-24.10.2026, 10:00 — film 01; 10:05 — post z linkiem do przypięcia.
+Terminy w Europe/Warsaw:
+24.10.2026, 10:00 — film 01.
+24.10.2026, 10:05 — post z linkiem.
 24.10.2026, 18:00 — film 02.
 25.10.2026, 10:00 — film 03. Tego dnia obowiązuje już czas UTC+1.
-Nie aktywuj publikacji przed sprawdzeniem publicznej strony gry.
-Jeśli uruchomienie nastąpi później, przesuń terminy szkiców na przyszłość.
-Bezpośrednie odnośniki do szkiców znajdują się w SZKICE-METRICOOL.txt.
+
+Są to aktywne publikacje zaplanowane na przyszłość, a nie potwierdzenie,
+że wpisy pojawiły się już na Facebooku. Nie wydano pieniędzy na reklamę.
+Odnośniki do wpisów znajdują się w SZKICE-METRICOOL.txt.
+Przypięcie posta jest osobną czynnością po jego publikacji.
 
 Po 48 godzinach zestaw ruch według utm_content: reel_01, reel_02, reel_03.
 Porównuj jednakowe okna od publikacji każdego filmu, np. pierwsze 12 godzin.

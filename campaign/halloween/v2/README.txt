@@ -5,8 +5,8 @@ z prawdziwej gry i 3 sekundy planszy z adresem grywmig.pl.
 Każdy film pokazuje inną sprawę. Lektor mówi po polsku.
 
 Animacja i lektor powstały w ElevenLabs; montaż wykonano w tym samym
-projekcie. Publikacja pozostaje w Metricool. Filmy zachowują status szkiców
-do uruchomienia strony gry na grywmig.pl.
+projekcie. Publikacja pozostaje w Metricool. Filmy mają aktywny harmonogram publikacji w Metricool. Gra została
+opublikowana i sprawdzona przed włączeniem harmonogramu.
 
 Początek jest animowanym zwiastunem; gra ma interfejs logicznej zagadki
 pokazany w drugiej części filmu. Film nie zdradza rozwiązania.

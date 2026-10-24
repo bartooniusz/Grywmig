@@ -1,0 +1,76 @@
+{
+  "game": {
+    "url": "https://grywmig.pl/halloweenowe-alibi/",
+    "wordpress_page_id": 71,
+    "status": "publish",
+    "implementation": "WordPress page with self-contained srcdoc game"
+  },
+  "metricool_brand_id": 7616490,
+  "verified_at_utc": "2026-10-24 06:56:39 UTC",
+  "checks": [
+    "published game played to a correct solution",
+    "public page accessible without login",
+    "published srcdoc matches locally tested build",
+    "all four posts have draft=false and autoPublish=true"
+  ],
+  "posts": [
+    {
+      "id": 404809464,
+      "uuid": "4391118895835661011",
+      "type": "REEL",
+      "publicationDate": {
+        "dateTime": "2026-10-24T10:00:00",
+        "timezone": "Europe/Warsaw"
+      },
+      "draft": false,
+      "autoPublish": true,
+      "media": [
+        "https://static.metricool.com/planner/202610/6844485-file-561017190391473320.mp4"
+      ],
+      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7616490&openWithPostUuid=4391118895835661011"
+    },
+    {
+      "id": 404809475,
+      "uuid": "-9001433854024465811",
+      "type": "POST",
+      "publicationDate": {
+        "dateTime": "2026-10-24T10:05:00",
+        "timezone": "Europe/Warsaw"
+      },
+      "draft": false,
+      "autoPublish": true,
+      "media": [],
+      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7616490&openWithPostUuid=-9001433854024465811"
+    },
+    {
+      "id": 404809493,
+      "uuid": "-1900683504121003163",
+      "type": "REEL",
+      "publicationDate": {
+        "dateTime": "2026-10-24T18:00:00",
+        "timezone": "Europe/Warsaw"
+      },
+      "draft": false,
+      "autoPublish": true,
+      "media": [
+        "https://static.metricool.com/planner/202610/6844485-file-13104012275311703897.mp4"
+      ],
+      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7616490&openWithPostUuid=-1900683504121003163"
+    },
+    {
+      "id": 404809510,
+      "uuid": "-3462615134062294139",
+      "type": "REEL",
+      "publicationDate": {
+        "dateTime": "2026-10-25T10:00:00",
+        "timezone": "Europe/Warsaw"
+      },
+      "draft": false,
+      "autoPublish": true,
+      "media": [
+        "https://static.metricool.com/planner/202610/6844485-file-10998126052544040217.mp4"
+      ],
+      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7616490&openWithPostUuid=-3462615134062294139"
+    }
+  ]
+}

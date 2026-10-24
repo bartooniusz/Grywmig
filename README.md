@@ -47,4 +47,6 @@ Najbliższy etap opisano w [planie na 30 dni](docs/plan-ruchu.md). Silniki gier,
 
 Nowa gra ma osobną wtyczkę: `dist/grywmig-halloween-alibi-1.0.0.zip`. Po aktywacji tworzy stronę `/halloweenowe-alibi/`, gdy adres jest wolny. Nie zmienia istniejącego Alibi. Katalog 1.0.3 dodaje kartę nowej gry po jej publikacji.
 
+Alternatywą dla instalacji ZIP jest samodzielna treść strony w `dist/halloweenowe-alibi/wordpress-page.html.txt`, generowana poleceniem `node scripts/build-halloween-wordpress-page.mjs`. Zawiera te same trzy sprawy w odizolowanej ramce `srcdoc`, z osadzonymi plikami i mostkiem do istniejącej analityki. Wkleja się ją do edytora kodu nowej strony WordPressa; wymaga uprawnień do zapisu własnego HTML i skryptów. Przed publikacją trzeba sprawdzić działanie w podglądzie. Test tej wersji: `node test/halloween/wordpress-page.mjs`.
+
 Materiały, opisy z linkami UTM i plan testu znajdują się w `campaign/halloween/` oraz `dist/kampania-halloween/`. Wybrane narzędzie publikacji to Metricool; docelowa strona Facebook ma ID `61595039801968`. Publikacja wymaga działającej strony gry i połączonej właściwej marki.

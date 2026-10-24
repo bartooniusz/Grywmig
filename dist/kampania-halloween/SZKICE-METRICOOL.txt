@@ -1,6 +1,7 @@
-HALLOWEENOWE ALIBI — SZKICE W METRICOOL
+HALLOWEENOWE ALIBI — AKTYWNY HARMONOGRAM W METRICOOL
 Marka: Gry w Mig, 7616490. Sieć: wyłącznie Facebook.
-Weryfikacja: cztery wpisy istnieją i mają draft=true. Brak publikacji.
+Weryfikacja: cztery wpisy mają draft=false oraz autoPublish=true.
+Gra jest opublikowana: https://grywmig.pl/halloweenowe-alibi/
 
 Film 01 — 24.10.2026, 10:00 Europe/Warsaw
 https://app.metricool.com/planner/calendar?blogId=7616490&openWithPostUuid=4391118895835661011
@@ -14,7 +15,6 @@ https://app.metricool.com/planner/calendar?blogId=7616490&openWithPostUuid=-3462
 Post z linkiem — 24.10.2026, 10:05 Europe/Warsaw
 https://app.metricool.com/planner/calendar?blogId=7616490&openWithPostUuid=-9001433854024465811
 
-Są to propozycje terminów, a nie aktywny harmonogram. Najpierw uruchom grę
-na https://grywmig.pl/halloweenowe-alibi/ i sprawdź jej działanie.
-Jeżeli proponowane terminy miną, zmień je przed zaplanowaniem publikacji.
+To aktywny harmonogram publikacji w czasie Europe/Warsaw.
+Gra została opublikowana i sprawdzona przed włączeniem harmonogramu.
 Przypięcie postu na Facebooku wymaga osobnego działania po publikacji.
